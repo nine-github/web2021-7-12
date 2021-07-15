@@ -1,0 +1,3898 @@
+[{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df51"
+  },
+  "user_name": "翻篇朱",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "有多少人和我一样，看封面进，全程拉动进度条，发现和封面一点关系都没有，内心充满了无以言说的感情，最后到评论区来找认同"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df52"
+  },
+  "user_name": "Despair布之道",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "b站特色，凡是跟学习有关的永远都是收藏比点赞多，然后某天想起来了发现视频失效了[笑哭]"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df53"
+  },
+  "user_name": "塞呐河畔左岸的咖啡",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "就在今晚，有几十万的手机在重启，几万的人在检查WIFI和网线，以及不知道多少人在怀疑自己没话费或网费了"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df54"
+  },
+  "user_name": "稻妻大小姐-神里绫华",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "所以，能帮我修电脑吗[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df55"
+  },
+  "user_name": "云哥真的帅",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "三个符号，让计算机人找了18分钟"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df56"
+  },
+  "user_name": "Wyame尹依",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "[tv_冷漠]到时候就会发现[tv_皱眉]\n面相对象编程（×）\n面相 Baidu 编程（✓）\n面相 CSDN 编程（✓）"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df57"
+  },
+  "user_name": "何人听风忆雪",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "这个存在BUG但为什么能运行，修掉BUG为什么不能运行了，原封不动的把BUG放回去，为什么不能运行，刚才不是能运行嘛！"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df58"
+  },
+  "user_name": "诗织千雪",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "已经软件工程毕业，说实话，根本不想从事这方面的工作，整个专业想当程序员的，都自己报了培训班，没报培训班的都跑路了，当时想的也是自己做游戏，后来发现，这个真的不适合我，如果你也看到英语就头疼，或是不喜欢“非可视化”的东西，趁早跑路吧[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df59"
+  },
+  "user_name": "慕课网官方账号",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "我~我~我~，慕课网，不止有C、C++的免费课程，还有那么多多多的免费课，大家都不知道吗？呜呜呜[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df5a"
+  },
+  "user_name": "FeOAr",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "计算机人路过，算是简单的专业了，课不是很难，科目也少点，干活条件比土木机电强。但是也有玄学时刻，就比如代码莫名其妙的好了。"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df5b"
+  },
+  "user_name": "枫叶丿年华",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "真正想学计算机基本都会找到，不想学的你给他多少资料都没用[傲娇]"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df5c"
+  },
+  "user_name": "程序媛樱岛麻衣",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "课代表来啦，给个三连吧[给心心]\n1.cppreference\nhttps://en.cppreference.com/w/\n\n2.LearnCpp\nhttps://www.learncpp.com/\n\n3.Cplusplus\nhttp://www.cplusplus.com/\n\n4.TutorialsPoint\nhttps://www.tutorialspoint.com/cplusplus/index.htm\n\n5.Awesome C++\nhttps://github.com/fffaraz/awesome-cpp\n\n6、书栈网\nhttps://www.bookstack.cn/\n\n7.牛客网\nhttps://www.nowcoder.com/activity/oj\n\n8.搬书匠\nhttp://www.banshujiang.cn/\n\n9.程序员刷题网站：LintCode 领扣\nhttps://www.lintcode.com/problem/\n\n10、LeetCode/LintCode 题解网站\nhttps://www.jiuzhang.com/solution/?utm_source=sc-zhihu-jw0603\n\n11、前端界的Dribbble——Codepen\nhttps://codepen.io/\n\n12、TheServerSide\nhttps://www.theserverside.com/\n\n13、Hacker News\nhttp://hackernews.betacat.io/\n\n14、karan/Projects\nhttps://www.gitmemory.com/karan/Projects\n\n15.字体动效神器Space Type Generator\nhttps://spacetypegenerator.com/\n\n16.大学自学网\nhttp://v.dxsbb.com/\n\n17.简单教程\nhttps://www.twle.cn/"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df5d"
+  },
+  "user_name": "关注熊米栗学穿搭",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "只要知道bilibili就够了"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df5e"
+  },
+  "user_name": "那个人咩",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "最好最有用的绝不是各种网站，各种资料，最有用，最有效的是兴趣！兴趣最重要，在这个时代只要感兴趣知识是跟容易获取的"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df5f"
+  },
+  "user_name": "无忧的棺木",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "要是有踩，我必一脚三连"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df60"
+  },
+  "user_name": "想看符华女装",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "青春猪头码农不会梦到电子兔女郎"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df61"
+  },
+  "user_name": "没有梦想的钉铛",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "60w播放200弹幕？？？"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df62"
+  },
+  "user_name": "终于喝到急支糖浆了",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "怎么这么高播放量，这么多学计算机的吗？害怕，不想干了"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df63"
+  },
+  "user_name": "糯米滋赛高",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "现在真不建议学计算机[藏狐]时代已经过去了，内卷极其极其严重而且疯狂加班，详看昨晚B站运维部[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfbd7d3c57e3ac29df64"
+  },
+  "user_name": "糖糖-0312",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "新人学习编程觉得有难度是很普遍的，再次我建议尝试学习01语言，这个非常简单。[doge][doge][doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df65"
+  },
+  "user_name": "翻篇朱",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "有多少人和我一样，看封面进，全程拉动进度条，发现和封面一点关系都没有，内心充满了无以言说的感情，最后到评论区来找认同"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df66"
+  },
+  "user_name": "Despair布之道",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "b站特色，凡是跟学习有关的永远都是收藏比点赞多，然后某天想起来了发现视频失效了[笑哭]"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df67"
+  },
+  "user_name": "塞呐河畔左岸的咖啡",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "就在今晚，有几十万的手机在重启，几万的人在检查WIFI和网线，以及不知道多少人在怀疑自己没话费或网费了"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df68"
+  },
+  "user_name": "稻妻大小姐-神里绫华",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "所以，能帮我修电脑吗[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df69"
+  },
+  "user_name": "云哥真的帅",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "三个符号，让计算机人找了18分钟"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df6a"
+  },
+  "user_name": "Wyame尹依",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "[tv_冷漠]到时候就会发现[tv_皱眉]\n面相对象编程（×）\n面相 Baidu 编程（✓）\n面相 CSDN 编程（✓）"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df6b"
+  },
+  "user_name": "何人听风忆雪",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "这个存在BUG但为什么能运行，修掉BUG为什么不能运行了，原封不动的把BUG放回去，为什么不能运行，刚才不是能运行嘛！"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df6c"
+  },
+  "user_name": "诗织千雪",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "已经软件工程毕业，说实话，根本不想从事这方面的工作，整个专业想当程序员的，都自己报了培训班，没报培训班的都跑路了，当时想的也是自己做游戏，后来发现，这个真的不适合我，如果你也看到英语就头疼，或是不喜欢“非可视化”的东西，趁早跑路吧[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df6d"
+  },
+  "user_name": "慕课网官方账号",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "我~我~我~，慕课网，不止有C、C++的免费课程，还有那么多多多的免费课，大家都不知道吗？呜呜呜[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df6e"
+  },
+  "user_name": "FeOAr",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "计算机人路过，算是简单的专业了，课不是很难，科目也少点，干活条件比土木机电强。但是也有玄学时刻，就比如代码莫名其妙的好了。"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df6f"
+  },
+  "user_name": "枫叶丿年华",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "真正想学计算机基本都会找到，不想学的你给他多少资料都没用[傲娇]"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df70"
+  },
+  "user_name": "程序媛樱岛麻衣",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "课代表来啦，给个三连吧[给心心]\n1.cppreference\nhttps://en.cppreference.com/w/\n\n2.LearnCpp\nhttps://www.learncpp.com/\n\n3.Cplusplus\nhttp://www.cplusplus.com/\n\n4.TutorialsPoint\nhttps://www.tutorialspoint.com/cplusplus/index.htm\n\n5.Awesome C++\nhttps://github.com/fffaraz/awesome-cpp\n\n6、书栈网\nhttps://www.bookstack.cn/\n\n7.牛客网\nhttps://www.nowcoder.com/activity/oj\n\n8.搬书匠\nhttp://www.banshujiang.cn/\n\n9.程序员刷题网站：LintCode 领扣\nhttps://www.lintcode.com/problem/\n\n10、LeetCode/LintCode 题解网站\nhttps://www.jiuzhang.com/solution/?utm_source=sc-zhihu-jw0603\n\n11、前端界的Dribbble——Codepen\nhttps://codepen.io/\n\n12、TheServerSide\nhttps://www.theserverside.com/\n\n13、Hacker News\nhttp://hackernews.betacat.io/\n\n14、karan/Projects\nhttps://www.gitmemory.com/karan/Projects\n\n15.字体动效神器Space Type Generator\nhttps://spacetypegenerator.com/\n\n16.大学自学网\nhttp://v.dxsbb.com/\n\n17.简单教程\nhttps://www.twle.cn/"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df71"
+  },
+  "user_name": "关注熊米栗学穿搭",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "只要知道bilibili就够了"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df72"
+  },
+  "user_name": "那个人咩",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "最好最有用的绝不是各种网站，各种资料，最有用，最有效的是兴趣！兴趣最重要，在这个时代只要感兴趣知识是跟容易获取的"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df73"
+  },
+  "user_name": "无忧的棺木",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "要是有踩，我必一脚三连"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df74"
+  },
+  "user_name": "想看符华女装",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "青春猪头码农不会梦到电子兔女郎"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df75"
+  },
+  "user_name": "没有梦想的钉铛",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "60w播放200弹幕？？？"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df76"
+  },
+  "user_name": "终于喝到急支糖浆了",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "怎么这么高播放量，这么多学计算机的吗？害怕，不想干了"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df77"
+  },
+  "user_name": "糯米滋赛高",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "现在真不建议学计算机[藏狐]时代已经过去了，内卷极其极其严重而且疯狂加班，详看昨晚B站运维部[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfbf7d3c57e3ac29df78"
+  },
+  "user_name": "糖糖-0312",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "新人学习编程觉得有难度是很普遍的，再次我建议尝试学习01语言，这个非常简单。[doge][doge][doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df79"
+  },
+  "user_name": "QuickSilverX",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "这玩意能上热门我是没想到的[笑哭]看来大家都喜欢C艹"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df7a"
+  },
+  "user_name": "ぽきた",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "include &lt;stdio.h&gt;\n[doge]([藏狐])\n[doge][doge][doge]\n[doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df7b"
+  },
+  "user_name": "Ansel丶白",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "网站 没什么用 买本入门书 啃一周就完事了 遇到问题直接百度"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df7c"
+  },
+  "user_name": "黑猫Tango",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "早知道学计算机也会被......[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df7d"
+  },
+  "user_name": "四川中路的maple",
+  "user_sex": "女",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "青春码农少年不会梦到兔女郎网站[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df7e"
+  },
+  "user_name": "叶v飘",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "刚被计算机专业录取就给我推荐这个[热词系列_知识增加]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df7f"
+  },
+  "user_name": "D-C-T",
+  "user_sex": "女",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "我c++期末都考完了，都从土堆里爬出来了，结果又刷到了这个视频[跪了][辣眼睛]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df80"
+  },
+  "user_name": "空城若梦丶",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "学cs不缺资源，普遍人缺的是深耕心和毅力。"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df81"
+  },
+  "user_name": "丨谷雨",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我真希望学计算机之前，有人能告诉，你不适合月计算机，尽管它是来钱最快的，可他真不适合你"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df82"
+  },
+  "user_name": "-练-",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "还是那句老话：收藏永不停止，学习从不开始。"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df83"
+  },
+  "user_name": "西北老王",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "网站一个没记住，bgm听的挺带劲儿[捂脸]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df84"
+  },
+  "user_name": "加藤穗",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "昨天一天学完c++，然后进考场挂科[妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df85"
+  },
+  "user_name": "MarsHX__",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏完了，可以给我修电脑了吗？[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df86"
+  },
+  "user_name": "金色的白桦树叶",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "做为C++程序员提一句，学什么不好，学C++。"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df87"
+  },
+  "user_name": "自去自来自由自在",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "还是希望出国语的编程系统吧"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df88"
+  },
+  "user_name": "心之端",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "所以学计算机，就送麻衣学姐吗？[吃瓜][吃瓜]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df89"
+  },
+  "user_name": "渲染丿丶鼎情",
+  "user_sex": "女",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "你我本无缘，全靠樱岛麻衣[吃瓜][吃瓜][吃瓜]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df8a"
+  },
+  "user_name": "野区的一条狗",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "所以你会修电脑吗[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df8b"
+  },
+  "user_name": "白日行之",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "我已经投过币了，大家随便看不用客气，不用投了，算我请大家的[微笑]"
+},{
+  "_id": {
+    "$oid": "60eedfc07d3c57e3ac29df8c"
+  },
+  "user_name": "深海人间",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "C语言系列大佬[给心心][给心心]🥰🥰🥰"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df8d"
+  },
+  "user_name": "思维与想象力",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "点赞服务挂了？"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df8e"
+  },
+  "user_name": "橘味砂糖",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "我学软件的，我的评价的是：其实官方文档比你想象中要有用很多"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df8f"
+  },
+  "user_name": "东杰在上班",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "我真希望，玩电脑之前，让孩子们学一些基础知识。\n工作后才发现，他们说的熟练使用电脑，只是会开机关机而已，他们说的熟练运用Office只是会打开关闭而已。真的太太太太太太菜了。"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df90"
+  },
+  "user_name": "甜脑",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "不一定会有用 但一定要收藏 [doge]拿来吧你"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df91"
+  },
+  "user_name": "MinecraftLPEM",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "//         \\\\         //          \\\\       //    ##DDDDDDDDDDDDDDDDDDDDDD##    ## DDDDDDDDDDDDDDDDDDDD ##   ________   ___   ___        ___   ________   ___   ___        ___    ## hh                hh ##   |\\   __  \\ |\\  \\ |\\  \\      |\\  \\ |\\   __  \\ |\\  \\ |\\  \\      |\\  \\    ## hh    //    \\\\    hh ##   \\ \\  \\|\\ /_\\ \\  \\\\ \\  \\     \\ \\  \\\\ \\  \\|\\ /_\\ \\  \\\\ \\  \\     \\ \\  \\    ## hh   //      \\\\   hh ##    \\ \\   __  \\\\ \\  \\\\ \\  \\     \\ \\  \\\\ \\   __  \\\\ \\  \\\\ \\  \\     \\ \\  \\    ## hh                hh ##     \\ \\  \\|\\  \\\\ \\  \\\\ \\  \\____ \\ \\  \\\\ \\  \\|\\  \\\\ \\  \\\\ \\  \\____ \\ \\  \\    ## hh      wwww      hh ##      \\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\\\ \\_______\\\\ \\__\\    ## hh                hh ##       \\|_______| \\|__| \\|_______| \\|__| \\|_______| \\|__| \\|_______| \\|__|    ## MMMMMMMMMMMMMMMMMMMM ##    ##MMMMMMMMMMMMMMMMMMMMMM##                             Release 2.6.1. Powered by jinkela-core 2.8.9.         \\/            \\/\n/video/BV1wZ4y1T7Uz?=p??????????"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df92"
+  },
+  "user_name": "ZMI紫米",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "道理我都懂，但是我冲着封面进来就是为了看这些吗[委屈][委屈][委屈]嘴角的泪水忍不住从眼睛流了下来"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df93"
+  },
+  "user_name": "只做单纯的人",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "内行看门道，外行看热闹。真正有用的东西哪一样不是自己去理解的?"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df94"
+  },
+  "user_name": "秋满开风舞花",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "不学计算机的都可以重开了[doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df95"
+  },
+  "user_name": "我不当喷子了",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "难得啊，居然没有课代表"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df96"
+  },
+  "user_name": "库特dayo",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "没有stack overflow和codeforces，那我不是很认同你[傲娇]"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df97"
+  },
+  "user_name": "黑木琉璃",
+  "user_sex": "女",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "我还以为是计算机劝退视频，结果合着是网站推荐视频"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df98"
+  },
+  "user_name": "缓缓道看看",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "视频怎么突然火了，还有，我为什么有种好久之前看过的感觉[笑哭]"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df99"
+  },
+  "user_name": "纸石",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "收藏爆了加载不出来啊[惊讶][惊讶]"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df9a"
+  },
+  "user_name": "芹小圈",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "doulidouli上线"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df9b"
+  },
+  "user_name": "松尾鼠",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "好家伙，我发现编程其实是一门玄学，而不是科学，为什么我的代码有时候能跑，有时候又动不了。是我没有洗脸，还是没有祈祷？？"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df9c"
+  },
+  "user_name": "KEDGE法国凯致商学院",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "[热词系列_妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df9d"
+  },
+  "user_name": "1229663790",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "java yyds"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df9e"
+  },
+  "user_name": "扎-不多-德勒-",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "什么c语言大佬"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29df9f"
+  },
+  "user_name": "雨声残响233",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "去我的收藏夹里吃灰吧[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc17d3c57e3ac29dfa0"
+  },
+  "user_name": "gLin_",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "我Acwing表示不服，并请求出战"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa1"
+  },
+  "user_name": "zrjztj710",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "如果早知道学计算机也会被……"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa2"
+  },
+  "user_name": "bili_49650625652",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "上热门了？是每个人的热门都是不同的吗？"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa3"
+  },
+  "user_name": "星夜下的一胡杨",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "完了完了 后浪要把我这个前浪拍死了"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa4"
+  },
+  "user_name": "汐月ぅ落花",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "所以我选择JAVA，JAVA天下第一[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa5"
+  },
+  "user_name": "VoidPrefab",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "咋最近这么多云学习啊...."
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa6"
+  },
+  "user_name": "不想长大的小橘喵",
+  "user_sex": "女",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "为啥热门第一[狗子]，我怀疑你给了不少钱[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa7"
+  },
+  "user_name": "乱心小月牙",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "听说你们程序员都是人和程序有一个能跑就行了[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa8"
+  },
+  "user_name": "小池-越",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "好家伙，收藏比赞多，你们这群白嫖怪，就不能顺手点赞吗[doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfa9"
+  },
+  "user_name": "猫熊大人喃",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "好家伙大学选的专业有c++"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfaa"
+  },
+  "user_name": "丨KEXIN丨",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "为啥，收藏总是比点赞多呢[吃瓜]我也要入坑了[脱单doge]希望不会成为秃秃[捂眼]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfab"
+  },
+  "user_name": "加把劲u咩战士",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我爱计算机，所以我爱你[妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfac"
+  },
+  "user_name": "友利奈绪_centis",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "典型的收藏比其他多的"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfad"
+  },
+  "user_name": "奇陌菌",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "C++，还没入门就入土了[辣眼睛]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfae"
+  },
+  "user_name": "名字是七个字呢",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "进我的收藏夹吃灰去吧[蛆音娘_吃瓜群众]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfaf"
+  },
+  "user_name": "醉花阴下醉酒歌",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "cv工程师，面向github编程"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfb0"
+  },
+  "user_name": "w风过无痕w",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "csdn+bilibili[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfb1"
+  },
+  "user_name": "BartCoco",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "学计算机的人这么多吗？都推荐第二了"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfb2"
+  },
+  "user_name": "Loriland",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "Stack overflow????????????"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfb3"
+  },
+  "user_name": "你也不必挽留",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我建议从985到大专所有学生都学计算机"
+},{
+  "_id": {
+    "$oid": "60eedfc27d3c57e3ac29dfb4"
+  },
+  "user_name": "胜琛",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "吗的 后悔当时转专业没去宇宙机去土木了[大哭][大哭][大哭][大哭][大哭][大哭][大哭][大哭][大哭][大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfb5"
+  },
+  "user_name": "支付宝还是微信",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "BGM： P.I.M.P —— tangtian"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfb6"
+  },
+  "user_name": "烟雨老师",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "点赞 投币 收藏 吃灰"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfb7"
+  },
+  "user_name": "穿77号的阿宇",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "你爱我，我爱你，你学编程天灭你\n编程本就逆天而行，死在路上很正常[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfb8"
+  },
+  "user_name": "晚耄の茵谨",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "准大一计算机表示去收藏里吃灰吧[doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfb9"
+  },
+  "user_name": "KaneLogger",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "能一篇文章说清楚的东西非得上传个视频?[疑惑][疑惑][疑惑]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfba"
+  },
+  "user_name": "X无为R无畏",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏从未步，学习未开始。"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfbb"
+  },
+  "user_name": "-Van-_-",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我直接洛谷[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfbc"
+  },
+  "user_name": "是蕾姆桑呦",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "好了，进收藏夹吃灰去！[傲娇][傲娇]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfbd"
+  },
+  "user_name": "242588562",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "[罗小黑_可可爱爱][罗小黑_可可爱爱][罗小黑_可可爱爱][罗小黑_可可爱爱]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfbe"
+  },
+  "user_name": "寻找亚丝娜的桐人",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏比赞多系列"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfbf"
+  },
+  "user_name": "点点是道",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "五周年生日快乐"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc0"
+  },
+  "user_name": "不灭-毁灭",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "CSDNyyds[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc1"
+  },
+  "user_name": "苇名城之狼",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我好歹也算一个c语言大佬[阴险]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc2"
+  },
+  "user_name": "梵高飞鸟集",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "淦，我以为青春猪头有消息了[笑哭][笑哭][笑哭]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc3"
+  },
+  "user_name": "_无上光明中极神君_",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏比赞多，就离谱，到我收藏夹里吃灰吧！"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc4"
+  },
+  "user_name": "OurUohc",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "有人会为了我这个伞兵点赞吗"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc5"
+  },
+  "user_name": "星夜の月",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "c从入门到放弃 Java 从入坑到入坟 mysql 从删库到跑路"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc6"
+  },
+  "user_name": "King_橙子",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "为什么我学校的计算机专业学的是ps ae dw pr这些感觉完全不一样"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc7"
+  },
+  "user_name": "L幺黟",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "收藏比点赞还多[囧] 进我收藏夹吃土[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfc47d3c57e3ac29dfc8"
+  },
+  "user_name": "什么人呐真是的",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "？。。"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfc9"
+  },
+  "user_name": "南宫煙_Oroch",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "就凭这nt投票你起码少了1w赞"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfca"
+  },
+  "user_name": "ASTRAYRMOR",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "可我是学电子的[Cat_sleep]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfcb"
+  },
+  "user_name": "雨墨旅呦",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "Y",
+  "comment": "话不多说直接收藏[doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfcc"
+  },
+  "user_name": "你老公辰哥",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "大家免费看 我投过币了 [脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfcd"
+  },
+  "user_name": "牧ノ原翔子",
+  "user_sex": "女",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "众所周知，收藏等于学过了[脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfce"
+  },
+  "user_name": "云哥真的帅",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "早中晚都在编程好吧"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfcf"
+  },
+  "user_name": "云哥真的帅",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "洛谷nice"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd0"
+  },
+  "user_name": "百鬼白嫖",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏比赞多[笑哭]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd1"
+  },
+  "user_name": "我不像好人",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "[捂脸]看看这收藏量"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd2"
+  },
+  "user_name": "jzbg_cj",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "想跟你学习编程，付费[呲牙]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd3"
+  },
+  "user_name": "夏-小秋",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "记得以前的公众号、博客、个人站、gankio（好像现在只有妹图没有技术了）什么的很多都是干货分享，现在都是标题党，每次看到标题有着浓厚兴趣点进来，结果刚看几句就扯到了什么关注送全套资料、视频，什么价值3999课程0.1元领取，关键还都是一些烂大街的东西。"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd4"
+  },
+  "user_name": "Jonathanze",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "笑死根本看不下去[跪了]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd5"
+  },
+  "user_name": "后句者上",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "7.6万收藏"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd6"
+  },
+  "user_name": "光风LoVE",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "学编程你唯一需要用到的网站是Google.com"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd7"
+  },
+  "user_name": "rhhfar",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "呵呵，标题党"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd8"
+  },
+  "user_name": "星styx",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "经典收藏比币多"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfd9"
+  },
+  "user_name": "某四月某",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "收藏是点赞两倍[笑哭]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfda"
+  },
+  "user_name": "呵呵呵68545",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "我洛谷没牌面[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfdb"
+  },
+  "user_name": "可莉呼呼",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "兔女郎是吧[阴险]"
+},{
+  "_id": {
+    "$oid": "60eedfc57d3c57e3ac29dfdc"
+  },
+  "user_name": "K0B50贰",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "不好意思打扰一下https://b23.tv/0inzxn这种事情B站居然在压热度，我们是被拉来挡刀的[笑哭]所以别再评论把这个顶上去啦。后面的兄弟们也记得复制一下，B站在吞评论，谢谢谢谢啦[给心心]。比起炒作，我更认为她是刻意引导公众去淡化历史。用自己作为公众人物的身份告诉大家在纪念馆门口蹦迪是合理的，是符合道德的，潜移默化让B站低龄的观众丧失对历史的铭记与自我判断的能力。这比炒作更可怕。（复制粘贴）"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfdd"
+  },
+  "user_name": "渚家的团子",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "经典收藏比点赞加投币多"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfde"
+  },
+  "user_name": "悦已lxy",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "求求你们别学通信工程"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfdf"
+  },
+  "user_name": "国王的新ID",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "一个GitHub还不够？[藏狐]合着您就是来卖东西的啊？"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe0"
+  },
+  "user_name": "潇义LoVe",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "煞笔的投票，视频挡半天，真就是视频就要投票，投nm"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe1"
+  },
+  "user_name": "小浠同志",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "这些网站只能说不用刻意知道，当你需要去学习相关方面知识的时候，你自然就知道了"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe2"
+  },
+  "user_name": "超威蓝毛的超威笔刀",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "就我想知道bgm是啥吗[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe3"
+  },
+  "user_name": "哦你咯哦",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "就在昨晚，有几十万的手机在重启，几万的人在检查WIFI和网线，几千人重下b站，以及不知道多少人在怀疑自己没话费或网费了[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe4"
+  },
+  "user_name": "爱电音的小沫",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "真就一点都不改照着抄是吧？https://zhuanlan.zhihu.com/p/122471938"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe5"
+  },
+  "user_name": "胡闹发明家",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "去吃灰"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe6"
+  },
+  "user_name": "至尊墨西哥恶棍卷饼",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "当初高考去的上海某一本末流学计算机，学了之后发现自己学不会，门门都在挂科边缘，果断大二转金融，混了三学期奖学金，我现在在自习室看到那些敲代码的人都会暗自窃喜[嗑瓜子][嗑瓜子]"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe7"
+  },
+  "user_name": "GoldenStarlight",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "当什么程序员，学个宇宙机混毕业去考公它不香吗[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe8"
+  },
+  "user_name": "糖果琪琪",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "到收藏夹里面睡觉去吧"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfe9"
+  },
+  "user_name": "普通村民罗先生",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "既然编程这么繁琐，为何不弄个编程让编程更简单，虽然很绕但你应该懂我意思吧[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfea"
+  },
+  "user_name": "侧脸美男",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "求BGM啊啊啊啊啊啊"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfeb"
+  },
+  "user_name": "b站活跃用户",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "第一次投币"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfec"
+  },
+  "user_name": "喜欢蓝天的Irene",
+  "user_sex": "女",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "@零分熟-牛排"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfed"
+  },
+  "user_name": "暗夜夜幽幽云",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "从收藏到吃灰[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfee"
+  },
+  "user_name": "这是星小耀",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "宇宙机"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dfef"
+  },
+  "user_name": "旦獺欧尼酱",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "收藏从未停止"
+},{
+  "_id": {
+    "$oid": "60eedfc67d3c57e3ac29dff0"
+  },
+  "user_name": "ydkg",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "对c++不感兴趣  了解底层 学c和汇编足矣"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff1"
+  },
+  "user_name": "你算哪块小饼干乀凵",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "大学准备学计算机的高三生收藏了"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff2"
+  },
+  "user_name": "天上飞的是鸟儿和云朵",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "学cpp若不是用来找工作，就没必要花那个心思懂很多相关内容了"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff3"
+  },
+  "user_name": "吴彦祖系卧",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "兄弟们，卷起来[滑稽][滑稽][滑稽]"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff4"
+  },
+  "user_name": "長門一楽",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "不朝C艹发展的看这些干嘛[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff5"
+  },
+  "user_name": "Luo晓宇",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "志愿90个学校全是计算机系[阴险]"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff6"
+  },
+  "user_name": "來自灣灣的外老",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "卷\n內\n糖\n平"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff7"
+  },
+  "user_name": "迷尘末影",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏夹吃灰去吧你[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff8"
+  },
+  "user_name": "专治杠精的杠精",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "。。。"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dff9"
+  },
+  "user_name": "一切都很神奇ノ",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "大二时候自学的Java，去csdn找的那些学习路线，然后从早上起来一直边学边跟着敲，把那些路线基本学完了。学完springboot之后没往下学了。然后确实，对代码这种东西有了更进一步的理解，也产生了巨大的兴趣，班里老师布置的大作业也都是很完美的做完。但是我发现一个大问题，只学代码好像不太行。因为我发现我跟着教学视频、资料学到的那些东西，就像是教你怎么用它而已，谁都可以学得会。所以建议学弟们更重要的还是学习理论知识，代码这个当然也要学，但是基础理论更不能落下！！！！"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dffa"
+  },
+  "user_name": "邪王真眼持有者持有者",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "进收藏夹吃灰吧你[傲娇]"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dffb"
+  },
+  "user_name": "热心国民张先生",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "到了报志愿时节，竟是这些玩意"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dffc"
+  },
+  "user_name": "劲草19",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "请问有没有刷python 题的网站"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dffd"
+  },
+  "user_name": "J4vix",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "谢谢，在C++结课后给我推送这么有用的视频[狗子]"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dffe"
+  },
+  "user_name": "求x的通解",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "欢迎观看收藏比赞多系列，别看了，先放进收藏夹里吃灰"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29dfff"
+  },
+  "user_name": "LUEN卢恩",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "居然没有CSDN？这网站救了多少编程学生！"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29e000"
+  },
+  "user_name": "反煽情协会-会长",
+  "user_sex": "女",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "收藏比点赞多系列"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29e001"
+  },
+  "user_name": "O星A落O",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏比赞多系列"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29e002"
+  },
+  "user_name": "独酒与孤",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "对于土木这个辣鸡专业来说，996就是福报[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29e003"
+  },
+  "user_name": "华丽的小et",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "一个哔哩哔哩顶一大片[doge]，加个CSDN就足矣l，缺啥上官网掏[OK]"
+},{
+  "_id": {
+    "$oid": "60eedfc77d3c57e3ac29e004"
+  },
+  "user_name": "皇咏丶",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "需要java资源"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e005"
+  },
+  "user_name": "forget12138",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "沉迷b站无事做？不如来一起冲Ning波工程学院。复制粘贴这段话，一起做个复读机！每天收入0硬币，周围憨批都在做！（把热度保持住啊xdm!）"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e006"
+  },
+  "user_name": "墨小鳌",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "丨"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e007"
+  },
+  "user_name": "我的小鱼你醒L",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "如果你不知道该做什么，那就去应聘"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e008"
+  },
+  "user_name": "术乄",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "进爷的收藏夹吃灰去吧！[脱单doge][脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e009"
+  },
+  "user_name": "yoyo_o",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "刚面上c++岗还没入职，找到好东西了啊！！"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e00a"
+  },
+  "user_name": "我爱学习sea",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "能不能分享python"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e00b"
+  },
+  "user_name": "冰梦残心一荒",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "停，别继续往下划屏幕了，看看下面这行字\n\n“你超棒！明天请继续加油！”\n\nOK，可以划走啦\n只是以防万一今天一整天都没有人夸夸你 \n[给心心][给心心][给心心]你肯定点了展开[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e00c"
+  },
+  "user_name": "Dio想起小面包",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "😓我一点不懂，只是有想法去学，请问这个适合没基础的嘛？话术大数据怎么会推送给我"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e00d"
+  },
+  "user_name": "小艾咪不想回家吃饭",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "报的培训班学的软件测试，刚学完接口就停课一个月了，原本想找到工作后抽空自学开发的，结果现在啥都没干，咸鱼一条[笑哭]"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e00e"
+  },
+  "user_name": "avid-v",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "最好的专业，计算机"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e00f"
+  },
+  "user_name": "皮友19吖",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "整一期Jvav的呗？[嗑瓜子]"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e010"
+  },
+  "user_name": "坤坤打烂球",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "ip x 177"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e011"
+  },
+  "user_name": "NPC终究是我不配",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "进我的收藏夹吃灰吧皮卡丘"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e012"
+  },
+  "user_name": "希望剪",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "这种技术视频怎么上的热门，难道b站全是程序员"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e013"
+  },
+  "user_name": "爱仓鼠小黄球",
+  "user_sex": "女",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "吃灰吧[提摩西小队_抓虫][提摩西小队_抓虫][提摩西小队_抓虫]"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e014"
+  },
+  "user_name": "inkoSAMA",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "来土木[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e015"
+  },
+  "user_name": "正经人谁用微博啊",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "我路由器上不了网了，能帮我看看吗[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e016"
+  },
+  "user_name": "光丨丨速",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "那行都不容易"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e017"
+  },
+  "user_name": "鎧塚希美",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "妈，我有对象了，\n：咋整的啊\nnew的"
+},{
+  "_id": {
+    "$oid": "60eedfc87d3c57e3ac29e018"
+  },
+  "user_name": "未斩断的过去",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "要是有理科潜力的话我必选计算机，可惜理科太难[笑哭]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e019"
+  },
+  "user_name": "青丘词",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "有学习C#的网站推荐吗"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e01a"
+  },
+  "user_name": "screct_",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏夹吃灰系列[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e01b"
+  },
+  "user_name": "憧梦谁知",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "你会穿兔女郎服嘛[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e01c"
+  },
+  "user_name": "就挺秃然的55",
+  "user_sex": "男",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "BGM求"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e01d"
+  },
+  "user_name": "Einsamer-Tourist",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "学计算机( ´_ゝ｀)不如搞维护"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e01e"
+  },
+  "user_name": "马可巴子",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "。。。"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e01f"
+  },
+  "user_name": "翟小波",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "收藏比点赞多[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e020"
+  },
+  "user_name": "小宇爱生活",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "难道没有学算法+数据结构？？？IT学习找小宇"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e021"
+  },
+  "user_name": "陈二狗2098",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "我一做产品的为什么会看的津津有味[妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e022"
+  },
+  "user_name": "康贤",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "计算机专业的我打算放弃编程了，走不通啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e023"
+  },
+  "user_name": "与君绝Sakura",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "老实说，我是被樱岛麻衣吸引来的[脱单doge][脱单doge][脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e024"
+  },
+  "user_name": "花椒先生丶",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "最痛苦的是，写完之后觉得自己还挺擅长的，可就是不想从业这个方面，别的技能又不会[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e025"
+  },
+  "user_name": "LOLlTA酱",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e026"
+  },
+  "user_name": "少年挑着草长莺飞",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我永远喜欢樱岛麻衣"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e027"
+  },
+  "user_name": "壮士干了这颗老鼠屎",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "很好，可是我要学的是[囧]汇编。。。"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e028"
+  },
+  "user_name": "是哪来的大羽呀",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "曾经天真的以为能在考前一夜学会c++的这里集合[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e029"
+  },
+  "user_name": "112atm",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "20个志愿报的师范，70个志愿报的计算机（你这视频我可能很快就要用到了[藏狐]）"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e02a"
+  },
+  "user_name": "LeBLUE_",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "[藏狐]我要是早知道这我就不学计算机了，我都快入土了"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e02b"
+  },
+  "user_name": "后宫后攻",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "道理我都懂，可计算姬和麻衣学姐什么关系[思考]"
+},{
+  "_id": {
+    "$oid": "60eedfca7d3c57e3ac29e02c"
+  },
+  "user_name": "心志所念",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏了，很高兴，但从不打开[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e02d"
+  },
+  "user_name": "晴天没有晴",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我的麻衣学姐呢 学姐呢？？！"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e02e"
+  },
+  "user_name": "luckyicccc",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "救命，，我现在感动计算机好难…学不动了"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e02f"
+  },
+  "user_name": "宇智波哆哆",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "有人吗"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e030"
+  },
+  "user_name": "昏君桑",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "论大部分程序员头像为什么是漫头[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e031"
+  },
+  "user_name": "微风吹啊吹啊吹啊",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "就这？ 什么bgm"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e032"
+  },
+  "user_name": "凉口先生",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "可以，进我收藏吃灰去吧"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e033"
+  },
+  "user_name": "Silent_Nightfall",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "求bgm"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e034"
+  },
+  "user_name": "给主播上柱香",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "新手还是买本大学专用课本慢慢老老实实打基础的好 在前期什么视频什么网站都是寄吧用没有 你绝对也没这个耐心看下去"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e035"
+  },
+  "user_name": "已关闭消息提示-不烦",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "我好歹也是个C语言系列大佬[阴险]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e036"
+  },
+  "user_name": "优越高贵天龙人",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "(=・ω・=)"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e037"
+  },
+  "user_name": "太罗罗罗罗罗罗",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "收藏从未停止，学习从未开始[夏诺雅_对不起][夏诺雅_对不起][夏诺雅_对不起][夏诺雅_对不起][夏诺雅_对不起][夏诺雅_对不起][夏诺雅_对不起][夏诺雅_对不起][夏诺雅_对不起]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e038"
+  },
+  "user_name": "-petender-",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "刚进门找个符号找的人都傻了[阴险]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e039"
+  },
+  "user_name": "EstellAils",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "没有计算机图形学差评[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e03a"
+  },
+  "user_name": "KING-坂口洋平",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "收藏比点赞高就离谱"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e03b"
+  },
+  "user_name": "白-w-",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "用麻衣把我骗了进来[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e03c"
+  },
+  "user_name": "小太阳照耀自己",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "（0）warnings （0）errors[OK]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e03d"
+  },
+  "user_name": "kritoing",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "去我的收藏夹吃灰把"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e03e"
+  },
+  "user_name": "秦小安鸭",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "学nm的计算机，各位快跑，学土木也别计算机"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e03f"
+  },
+  "user_name": "夜の熙",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "真希望选计算机专业之前有人能告诉我计算机是以数学为基础的[捂脸]"
+},{
+  "_id": {
+    "$oid": "60eedfcb7d3c57e3ac29e040"
+  },
+  "user_name": "令梦君",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "沉迷B站无事做？不如来冲宁波工程学院！复制粘贴这段话，一起做个复读机，每天收入0硬币，周围同志都在做，反正闲着也是闲着，不如挨顿夸[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e041"
+  },
+  "user_name": "灬精神小伙",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "这背景音乐叫啥"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e042"
+  },
+  "user_name": "晚上不睡白天补觉",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏比点赞多，真实[跪了]"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e043"
+  },
+  "user_name": "夜雪苏晴",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "网站什么时候都有"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e044"
+  },
+  "user_name": "浪疤",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "学这难不难"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e045"
+  },
+  "user_name": "大帅锅一枚啊",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "拿来吧你"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e046"
+  },
+  "user_name": "zhangzhanggame",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "有装系统，破解软件，破解qq密码教程吗"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e047"
+  },
+  "user_name": "瑟尼欧里斯",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "那弹窗就很灵性，该缓存了断网看的"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e048"
+  },
+  "user_name": "波塞饿卫兰",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "去我的收藏里吃灰把[OK]"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e049"
+  },
+  "user_name": "AMD中国官方",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "一壶茶,一包烟,bug一改改一天"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e04a"
+  },
+  "user_name": "我差不多就是一只咸鱼",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "保存了"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e04b"
+  },
+  "user_name": "ルフィ-_-",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "进来看的都是lsp了，不会有人是来正经学习的吧[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e04c"
+  },
+  "user_name": "Ghfffffv",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "你在教我做事？[吃瓜][吃瓜]"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e04d"
+  },
+  "user_name": "进击の吼姆拉",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "提问弹幕见一个踩一个"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e04e"
+  },
+  "user_name": "嘿嘿嘿小喵咪",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "会装系统吗。。"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e04f"
+  },
+  "user_name": "tanks666",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "老婆？"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e050"
+  },
+  "user_name": "岳彦希",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "那你能帮帮我吗"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e051"
+  },
+  "user_name": "会撒娇的喵酱",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "学的软件工程，大一学的C和JAVA，每次考试都及格线飘过，请问我还有救吗？[大哭][大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e052"
+  },
+  "user_name": "hzc0526",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "半吊子挺多的"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e053"
+  },
+  "user_name": "凛宗主",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "这个配音发表情包好灵性阿[星星眼]"
+},{
+  "_id": {
+    "$oid": "60eedfcc7d3c57e3ac29e054"
+  },
+  "user_name": "LittlePRNICE",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏多于点赞系列[热词系列_妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e055"
+  },
+  "user_name": "霍格沃兹的三好学生",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "有无医学生的网站？？？！！！1"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e056"
+  },
+  "user_name": "思思思雨QAQ",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "不太聪明适合学计算机吗"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e057"
+  },
+  "user_name": "湮灭天神",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "CSDN yyds[妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e058"
+  },
+  "user_name": "Sen-dyeing",
+  "user_sex": "女",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "对纯数字 理科那种计算不感兴趣是不是不推荐学计算机[思考]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e059"
+  },
+  "user_name": "sssxr-",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "，                                               ，"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e05a"
+  },
+  "user_name": "流着哈喇子望着天花板",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "朕的课代表在哪里[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e05b"
+  },
+  "user_name": "酸酸不是算算",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "lol极地大乱斗换人的时候有个bug不知道有人发现没"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e05c"
+  },
+  "user_name": "一个路过的二五仔",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "你学计算机？在？能帮我修个电脑不？[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e05d"
+  },
+  "user_name": "HIBIK晁",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏夹里吃灰[脱单doge][脱单doge][脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e05e"
+  },
+  "user_name": "青空滴雨",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "啊，看到标题，我就感觉有种说不出来的难受，这不是有语病吗[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e05f"
+  },
+  "user_name": "落魄前端",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "Y",
+  "comment": "第一次 给人三连"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e060"
+  },
+  "user_name": "叫我齐天三圣",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "3次崩溃，让程序员修了18小时"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e061"
+  },
+  "user_name": "这Teletubbies",
+  "user_sex": "女",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "只有我一个人看封面进来的吗？[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e062"
+  },
+  "user_name": "Predictor_HY",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏夹吃灰"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e063"
+  },
+  "user_name": "kisaran",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "进我收藏夹吃灰吧[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e064"
+  },
+  "user_name": "榴莲牛奶wy",
+  "user_sex": "女",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "我想学，没人教我"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e065"
+  },
+  "user_name": "青云一一步",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "那你可以帮我配置一台电脑吗[妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e066"
+  },
+  "user_name": "冰川增幅滋滋滋",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "高考完，计算机类，暑假能干什么好的"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e067"
+  },
+  "user_name": "学会做蛋饼",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "哈喽璐璐"
+},{
+  "_id": {
+    "$oid": "60eedfcd7d3c57e3ac29e068"
+  },
+  "user_name": "起个破名真难听",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "三连吃灰"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e069"
+  },
+  "user_name": "梦星196",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏了收藏了[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e06a"
+  },
+  "user_name": "锡-安",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "学了两年，这网站一个没用过"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e06b"
+  },
+  "user_name": "取个昵称超级难",
+  "user_sex": "女",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "只想抽烟"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e06c"
+  },
+  "user_name": "激溯流光",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "计算机有必要考研吗[思考][思考]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e06d"
+  },
+  "user_name": "六花我老婆别抢",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "吃灰去吧[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e06e"
+  },
+  "user_name": "年轻的火炬手",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "有闸瓦吗[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e06f"
+  },
+  "user_name": "黑萝莉丶芙兰朵露",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "所以，能帮我装台电脑嘛 而且我也不知道配置怎么配[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e070"
+  },
+  "user_name": "komorebi_KJ",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "夹吃灰[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e071"
+  },
+  "user_name": "Missyourcat",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "到我的收藏夹里吃灰吧[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e072"
+  },
+  "user_name": "潍坊科技学院官方号",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "笑死，这些虽然都知道，但也就期末会打开[热词系列_DNA]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e073"
+  },
+  "user_name": "Gray_Blue",
+  "user_sex": "女",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "[doge]想起来高一学Python的时候虽然只有十行的口令也找不到问题在哪"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e074"
+  },
+  "user_name": "XD0DX",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "诶  up主秒回滴吗"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e075"
+  },
+  "user_name": "莫测--",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "课代表呢？有没有课代表"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e076"
+  },
+  "user_name": "我在想念17岁的你",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "这怎么不能运行？\n这怎么运行起来的？[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e077"
+  },
+  "user_name": "MIKEtoy",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "欢迎来到收藏比赞多系列"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e078"
+  },
+  "user_name": "反对宁宁的来锉一刀",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "真正的编程员早就没有头发了[脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e079"
+  },
+  "user_name": "你嘛时候是津门第一",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "卷就完事，反正好工作就这这么点"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e07a"
+  },
+  "user_name": "-我不想做人啦-",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "我真的后悔，学计算机之前要是知道这些.打死我也不会学的。现在啥也不会。"
+},{
+  "_id": {
+    "$oid": "60eedfce7d3c57e3ac29e07b"
+  },
+  "user_name": "作业不要啊",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "计算机人从入门到入土"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e07c"
+  },
+  "user_name": "账号已注销封禁",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "软件行业卷的要死，凌晨学习写代码的，凌晨加班写代码的，如果没有兴趣，趁早放弃，因为根本卷不过他们"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e07d"
+  },
+  "user_name": "想中奖9",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "这些网站只有我打不开吗"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e07e"
+  },
+  "user_name": "动画片12",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "现在这么多粉丝了记得以前就是小猫两三只"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e07f"
+  },
+  "user_name": "丶仪丶",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "点开→收藏→撤退←"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e080"
+  },
+  "user_name": "方正小吴",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "对不起，我学的C#[滑稽]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e081"
+  },
+  "user_name": "碎冰者-安特库",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "还行，感觉现在有缺口的是做游戏那方面……不过第三产业嘛，换血还是快[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e082"
+  },
+  "user_name": "程序媛樱岛麻衣",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "[捂眼][捂眼][捂眼]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e083"
+  },
+  "user_name": "我先吃个桃子",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "说用不到英语的是只用过stdio.h/iostream ，没见过windows.h吧[妙啊][妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e084"
+  },
+  "user_name": "81353184008_bili",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "ohno\n我学计算机的感觉自闭\n极其自闭\n因为对程序什么的毫无兴趣[哭泣]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e085"
+  },
+  "user_name": "吃一半放生一半的喵酱",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "面向监狱编程\nC语言从入门到入狱\nC语言从入门到入土"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e086"
+  },
+  "user_name": "给主播上柱香",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "收藏吃灰去吧"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e087"
+  },
+  "user_name": "旧北Ya",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "去我的收藏夹里吃灰吧！"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e088"
+  },
+  "user_name": "BLADEGHOST",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "快到我的收藏夹里吃灰吧[脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e089"
+  },
+  "user_name": "西瓜xixi",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "谢谢up"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e08a"
+  },
+  "user_name": "泠沄霄",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "我看不懂，但…拿来吧你！"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e08b"
+  },
+  "user_name": "幽梦郡",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "计算机系的两大不解之谜:1.为什么它不能跑？\n2.为什么它又能跑？[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e08c"
+  },
+  "user_name": "千里清欢渡",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "先收藏 万一被录取到了呢[doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e08d"
+  },
+  "user_name": "没有非法字符吧",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "经典收藏比点赞投币加起来还多[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e08e"
+  },
+  "user_name": "御宇丶琉冥",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "最恐怖的莫过于代码报错但是不显示错误吧[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfcf7d3c57e3ac29e08f"
+  },
+  "user_name": "时熟",
+  "user_sex": "女",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "呀，上上学期学过了"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e090"
+  },
+  "user_name": "是阿中的阿忠啊",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "应届生上班第三天，摸鱼ing[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e091"
+  },
+  "user_name": "樱奈zZ",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "所以  没有电脑能学吗？[微笑]"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e092"
+  },
+  "user_name": "星竹丶丶",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "上热门了"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e093"
+  },
+  "user_name": "罗马复国者",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我一个天坑材料出来的一直想跨考计算机"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e094"
+  },
+  "user_name": "迷云～",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "点开→收藏→评论→离开，一气呵成[脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e095"
+  },
+  "user_name": "Ender末影丶",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "献祭头发来学"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e096"
+  },
+  "user_name": "一片Leaves",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "收藏大于点赞系列"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e097"
+  },
+  "user_name": "戴帽子的亚马荪",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "有多少人和我一样，看封面进，全程拉动进度条，发现和封面一点关系都没有，内心充满了无以言说的感情，最后到评论区来找认同"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e098"
+  },
+  "user_name": "我世界最可爱",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "典型收藏多余点赞[辣眼睛]"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e099"
+  },
+  "user_name": "恰了个柠萌",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我k，刚报平面设计b站热门就给我推荐了计算机Σ(ﾟдﾟ;)"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e09a"
+  },
+  "user_name": "魔神okida",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "收藏，告辞[妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e09b"
+  },
+  "user_name": "ray酱真的是太可爱了",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "属于是收藏大于点赞的类型了"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e09c"
+  },
+  "user_name": "宝藏男孩康康了解一下",
+  "user_sex": "男",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "啊啊"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e09d"
+  },
+  "user_name": "我永远喜欢蓝色短发",
+  "user_sex": "女",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "学c＋＋不如学Python[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e09e"
+  },
+  "user_name": "Cialloooo",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "会修电脑吗"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e09f"
+  },
+  "user_name": "染茗。",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "Codepen种草了"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e0a0"
+  },
+  "user_name": "狙王007",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏比赞多系列"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e0a1"
+  },
+  "user_name": "阿正先生A",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "我来了"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e0a2"
+  },
+  "user_name": "HK磁共振",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "我看不懂，但是我大受震撼"
+},{
+  "_id": {
+    "$oid": "60eedfd07d3c57e3ac29e0a3"
+  },
+  "user_name": "冇语了",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "这也能上热门？[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0a4"
+  },
+  "user_name": "歌未尽东方白",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "标题狗 举报了"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0a5"
+  },
+  "user_name": "风向远",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "Y",
+  "comment": "报的都是计算机专业，对视频里的代码甚是恐惧。不知道会不会感兴趣[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0a6"
+  },
+  "user_name": "Itsusinn逸新",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我还以为是劝人不要学计算机的视频[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0a7"
+  },
+  "user_name": "灿灿Ⅱ",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "从入门到入土"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0a8"
+  },
+  "user_name": "真心爱你的小鱼干",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "从入门到如何植发"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0a9"
+  },
+  "user_name": "王芫荽_",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "能把这阴间投票去了吗？"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0aa"
+  },
+  "user_name": "boolintlong",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "一般用谷歌你需要的都能搜到"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0ab"
+  },
+  "user_name": "好甜的苏格呀",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "我是进来看程序媛的[星星眼][星星眼][星星眼]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0ac"
+  },
+  "user_name": "桔皮绿茶",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "C语言期末挂科了[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0ad"
+  },
+  "user_name": "修竹之墨客_",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "td"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0ae"
+  },
+  "user_name": "一个劲儿的说不要",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "什么玩意儿"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0af"
+  },
+  "user_name": "方PlusMax",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "看到不是卷我们java我就放心了[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0b0"
+  },
+  "user_name": "朽月廿四之秋",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "看完了，收藏了一波网址，轮到去我的浏览器书签吃灰吧"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0b1"
+  },
+  "user_name": "歧峒AAN",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "hahaha先收藏，等我明年高考完了看，想当个程序媛，以前还没想过了解这些诶"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0b2"
+  },
+  "user_name": "富士instax",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "Y",
+  "comment": "后悔当初没有上车计算机编程[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0b3"
+  },
+  "user_name": "做自己想做的事情吧",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "yxh"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0b4"
+  },
+  "user_name": "bili_92507846",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "看到学姐就进来了"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0b5"
+  },
+  "user_name": "5781冲锋龙",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "道理我都懂，但你为什么封面放我老婆照片[doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0b6"
+  },
+  "user_name": "北晨林风",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏比赞和硬币的总数还多[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd17d3c57e3ac29e0b7"
+  },
+  "user_name": "饼加卫龙",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏夹吃灰去吧[藏狐]"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0b8"
+  },
+  "user_name": "CSGO_玩机器",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "路是有的，走的人多了，也便没了路。"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0b9"
+  },
+  "user_name": "清卿Lynne",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "今年报的软件工程。假期是不得开始学点什么[来古-疑问]"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0ba"
+  },
+  "user_name": "改名需要好多硬币",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "沉迷B站无事做？不如来冲宁波工程学院！复制粘贴这段话，一起做个复读机，每天收入0硬币，周围同志都在做，反正闲着也是闲着，不如挨顿夸[doge]\n（一起把热度保持住，xdm求求了）"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0bb"
+  },
+  "user_name": "精灵训练师薰",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "大学百分之80都[OK]是b站学的，从高考养成看学习视频的习惯"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0bc"
+  },
+  "user_name": "南宫临风_",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "为什么老是刷到推荐C++入门的资料，B站的推荐机制有毒。以前工作用C++，现在C++的岗位很少了，大家都转行了搞别的了。"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0bd"
+  },
+  "user_name": "牛x滴小白兔",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏比点赞多就离谱"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0be"
+  },
+  "user_name": "荧正仙雩",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "视频质量全靠评论区？"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0bf"
+  },
+  "user_name": "mrecc",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "看我收藏行事[脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c0"
+  },
+  "user_name": "蒸苹果",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "说实话计算机方面的资料实在太多了，最重要的是自学的动力"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c1"
+  },
+  "user_name": "正规の白鹭",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "进我的文件夹里吃灰吧！"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c2"
+  },
+  "user_name": "北悸初安凉",
+  "user_sex": "女",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "不是ID不点进来"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c3"
+  },
+  "user_name": "詛兹定于",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "所以封面为什么是学姐？[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c4"
+  },
+  "user_name": "keyの春",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "学计算机要学的数学知识太多了。[捂脸]"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c5"
+  },
+  "user_name": "青城煙雨",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "没有时间学习，不知道从哪一个方面开始，17岁不知道干嘛[酸了]"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c6"
+  },
+  "user_name": "斟茶兵miku",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "看到封面就进来了"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c7"
+  },
+  "user_name": "我想说普通话",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "532549587"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c8"
+  },
+  "user_name": "进击的阿放",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏退出一气呵成[脱单doge][妙啊]"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0c9"
+  },
+  "user_name": "-琳伊-",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "收藏超过点赞[tv_调侃]"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0ca"
+  },
+  "user_name": "御坂13616号",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "热门第三可还行 牛的"
+},{
+  "_id": {
+    "$oid": "60eedfd27d3c57e3ac29e0cb"
+  },
+  "user_name": "青沐侍我",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "收藏比赞多系列"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0cc"
+  },
+  "user_name": "1775026",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "交易猫上全是骗子，我刚被骗了【骷髅】"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0cd"
+  },
+  "user_name": "丶伊卡洛斯-",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "woc，我现在在上电脑课，这视频直接成我热门第二了，而且我从未看过up的视频[辣眼睛]"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0ce"
+  },
+  "user_name": "幼儿源院长",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "不是吧，打算专业选计算机[脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0cf"
+  },
+  "user_name": "蒸苹果",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "谢谢，已经开始焦虑了"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d0"
+  },
+  "user_name": "二次元教蝗",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "[撇嘴]"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d1"
+  },
+  "user_name": "让老板打个包",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "x\n找不到对象"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d2"
+  },
+  "user_name": "弥留之国的爱莉丝",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "C++觉得难？学不会？那太正常了，不是你的问题，是C++的问题，建议转Py，Java。"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d3"
+  },
+  "user_name": "玖桃桃桃子",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "不想秃头和掉头发"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d4"
+  },
+  "user_name": "旧梦ty",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "这就好了。。。"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d5"
+  },
+  "user_name": "安是安",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "借个帖子，想让大家知道一件事，宁波工程学院发生的一件事，手脚骨折无法反抗，她呼救无人应答，脸上几十刀，她疼的快晕了，又被下一刀的疼痛刺激醒来，她感受着自己的皮肤被切开，深的地方已经切通脸颊，她用尽全力带动已经骨折的手脚挣扎，它用力按住她，把刀深深的切入脖颈 ！…弥留之际 她想不通自己做错了什么，她想起了爸妈…（我与她素未相识但是我能感受到她当时的绝望，写这段话的时候眼睛进了砖头…） 本来可以毕业，这里可能是她梦开始的地方，不成想，却是她所有的一切结束  ，这一切，都是因为一个黑人外教"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d6"
+  },
+  "user_name": "angel2141",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "[小电视_发愁]"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d7"
+  },
+  "user_name": "落笺书云鬟",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "。。。。。[doge][doge][doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d8"
+  },
+  "user_name": "瘫痪爆肝的咸鱼",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "Y",
+  "comment": "洛谷好啊"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0d9"
+  },
+  "user_name": "世雨SEAME",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "好了"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0da"
+  },
+  "user_name": "FlameMida",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "全是c艹？"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0db"
+  },
+  "user_name": "枫羽叶林",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "学姐计算机入门学习那种语言比较好？麻烦学姐指导一下"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0dc"
+  },
+  "user_name": "梦有十分香",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏比点赞硬币加起来还多系列"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0dd"
+  },
+  "user_name": "你若心安",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "在学pytont 啊，听说它比较简单"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0de"
+  },
+  "user_name": "布布噜啦",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "去我收藏夹里吃灰去吧"
+},{
+  "_id": {
+    "$oid": "60eedfd37d3c57e3ac29e0df"
+  },
+  "user_name": "淡皇_肝帝",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "收藏比点赞多系列"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e0"
+  },
+  "user_name": "小周从此逝_",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "新人编程可以试试菜鸟教材"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e1"
+  },
+  "user_name": "Sneaker王泓",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "背景音乐是啥"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e2"
+  },
+  "user_name": "西瓜Cci",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "问下学得半桶水还建议学这专业吗[doge]对学其他专业也是半桶水的话"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e3"
+  },
+  "user_name": "rot_w",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "买本C++ primer(没有plus) 体验一下痛苦"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e4"
+  },
+  "user_name": "-黯灭-",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "你们收藏了还不点个赞？"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e5"
+  },
+  "user_name": "肯德基对你的",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "你进我收藏夹吧你"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e6"
+  },
+  "user_name": "可手摘把星辰",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "拿来吧你[脱单doge][脱单doge][脱单doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e7"
+  },
+  "user_name": "是707鸭",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "现在这个年代不建议再学cpp"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e8"
+  },
+  "user_name": "惧费德谈",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "还以为会是一句回头是岸"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0e9"
+  },
+  "user_name": "つづき",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "我还以为会有植发，假发，防脱发那"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0ea"
+  },
+  "user_name": "我是好好啊",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "收藏＞点赞[doge]"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0eb"
+  },
+  "user_name": "真是可爱呢呢呢呢呢",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "刚刚报了计算机"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0ec"
+  },
+  "user_name": "逝去的童年TT",
+  "user_sex": "男",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "收藏比赞多系列"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0ed"
+  },
+  "user_name": "笔墨吖-",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "2"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0ee"
+  },
+  "user_name": "小芝sk",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "草，我只知道AIDE和JSIDE这两软件"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0ef"
+  },
+  "user_name": "小丨咩丶",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "先投币，后收藏，不知道这辈子还有没有缘分再见"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0f0"
+  },
+  "user_name": "沉火山～",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "你这封面的话是的病句啊"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0f1"
+  },
+  "user_name": "哦绘图KTV",
+  "user_sex": "保密",
+  "user_level": 2,
+  "user_is_vip": "N",
+  "comment": "逆天标题"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0f2"
+  },
+  "user_name": "已有事-日必有",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "现在PHP还有钱途么"
+},{
+  "_id": {
+    "$oid": "60eedfd47d3c57e3ac29e0f3"
+  },
+  "user_name": "云初悟云语",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "我个人建议如果是萌新还是看一些中文网站吧，不要被英文难倒然后觉得是编程语言难，在有了一些基础后可以上手英文的一些文档"
+},{
+  "_id": {
+    "$oid": "60eedfd57d3c57e3ac29e0f4"
+  },
+  "user_name": "最重要的小事2",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "我想知道在哪里可以下vs2019更快一点，以及codeblocks点开弹出来环境错误怎么解决。。。纯小白"
+},{
+  "_id": {
+    "$oid": "60eedfd57d3c57e3ac29e0f5"
+  },
+  "user_name": "蚁鹿鸦虾",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "只要让我刷到，就乖乖吃灰[歪嘴]"
+},{
+  "_id": {
+    "$oid": "60eedfd57d3c57e3ac29e0f6"
+  },
+  "user_name": "asdbxsh",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "插眼"
+},{
+  "_id": {
+    "$oid": "60eedfd57d3c57e3ac29e0f7"
+  },
+  "user_name": "倾听风诉",
+  "user_sex": "保密",
+  "user_level": 4,
+  "user_is_vip": "N",
+  "comment": "学不完的兄弟们[灵魂出窍]"
+},{
+  "_id": {
+    "$oid": "60eedfd57d3c57e3ac29e0f8"
+  },
+  "user_name": "WMEOT",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "作为天使 是时候给你看下我的翅膀了\n  \n \n \n \n光翼 \n \n                 ↗\\                    / ↖\n            ↗    ↗ ↖          ↗ ↖  ↖  ↖\n         /   /  ↗↗    [doge]  ↖↖  \\   \\   \\\n        /↙/↙/↙                    ↘\\↘\\↘\\\n        /↙ /↙                            ↘\\ ↘\\\n         /↙                                      ↘\\\n         /                                            \\"
+},{
+  "_id": {
+    "$oid": "60eedfd57d3c57e3ac29e0f9"
+  },
+  "user_name": "nove慧兴",
+  "user_sex": "女",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "@舰长_章北海"
+},{
+  "_id": {
+    "$oid": "60eedfd57d3c57e3ac29e0fa"
+  },
+  "user_name": "晓炙晨曦",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "N",
+  "comment": "[妙啊]如果早知道学计算机也会被……"
+},{
+  "_id": {
+    "$oid": "60eedfd67d3c57e3ac29e0fb"
+  },
+  "user_name": "尘锈蓝",
+  "user_sex": "女",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "谁批准你用麻衣当封面的？申请书写了没？"
+},{
+  "_id": {
+    "$oid": "60eedfd67d3c57e3ac29e0fc"
+  },
+  "user_name": "又见7",
+  "user_sex": "男",
+  "user_level": 5,
+  "user_is_vip": "Y",
+  "comment": "看到标题我以为的，我真希望学计算机之前，有人能告诉我，这个东西我把握不住，每次我坚持不下去的时候，我就打开这个视频，看看麻衣抚慰一下受伤的心。"
+},{
+  "_id": {
+    "$oid": "60eedfd67d3c57e3ac29e0fd"
+  },
+  "user_name": "爱撅嘴的兜兜猫",
+  "user_sex": "保密",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "本来想养老 奈何被迫要秃头[大哭]"
+},{
+  "_id": {
+    "$oid": "60eedfd67d3c57e3ac29e0fe"
+  },
+  "user_name": "亦心无诗屠众生",
+  "user_sex": "保密",
+  "user_level": 5,
+  "user_is_vip": "N",
+  "comment": "BV1ch411y7u4"
+},{
+  "_id": {
+    "$oid": "60eedfd67d3c57e3ac29e0ff"
+  },
+  "user_name": "CC语言大佬",
+  "user_sex": "男",
+  "user_level": 6,
+  "user_is_vip": "Y",
+  "comment": "我也要成为c语言大佬去扒tx代码[阴险]"
+},{
+  "_id": {
+    "$oid": "60eedfd67d3c57e3ac29e100"
+  },
+  "user_name": "英语白吃",
+  "user_sex": "保密",
+  "user_level": 3,
+  "user_is_vip": "N",
+  "comment": "尼玛盗视频吧"
+},{
+  "_id": {
+    "$oid": "60eedfd67d3c57e3ac29e101"
+  },
+  "user_name": "盐渍凤梨味汽水本水啊",
+  "user_sex": "男",
+  "user_level": 3,
+  "user_is_vip": "Y",
+  "comment": "◢■■■■■■■■■■■◤\n                      ■\n                      ■\n                      ■◣\n                      ■ ◥◣\n                      ■      ◥◣\n                      ■\n                      ■\n                      ◤\n◥◣               ◢◤\n   ◥◣         ◢■■■■■■◤\n      ◥◣   ◢◤      ■     ◢◤\n              ◢◤        ■   ◢◤\n                             ■\n        ◢◤             ■\n     ◢◤           ◢◤◥◣\n  ◢◤          ◢◤        ◥◣\n◢◤        ◢◤                ◥◣\n️\n️\n️\n️\n◢■■■■■■■■■■■◤\n️\n️\n️\n️\n                     ◥◣\n    ◢■■■■■■■■■■◤\n◢◤                               ◢◤\n   ◢■■■■■■■■■◤\n                     ■\n        ◢         ■■■■■◤\n       ■◣       ■\n      ■ ◥◣   ■\n  ◢◤      ◥■■■■■■■◣\n中文：下次一定\n英语：next time\n葡萄牙语：Da próxima vez\n日语：次はきっと\n瑞典语：Nästa gång.\n希腊语：Την επόμενη φορά. \n意大利语：La prossima volta.\n法语：la prochaine fois\n越南语：Lần sau \n中文繁体:下次一定 \n文言文：下次必\n盘语：下次盘盘\n哲♂语：下刺♂一腚\n嘤语：嘤嘤嘤嘤嘤\n戴夫语：歪比巴卜\n卢语：得得得得得得\n▬▬▬▬.◙.▬▬▬▬\n    ▂▄▄▓▄▄▂\n◢◤ █▀▀████▄▄▄▄◢◤\n█ 白嫖专用逃跑机 [doge] █▀……╬\n    ◥██████◤ [doge]\n  ══╩══╩══ \n↓↓下方点击乘坐"
+}]
