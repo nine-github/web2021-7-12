@@ -24,7 +24,19 @@
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="stylesheet.css" rel="stylesheet" type="text/css">
+<link rel=stylesheet href='plugins/goodlayers-core/plugins/combine/style.css' type=text/css media=all />
+    <link rel=stylesheet href='plugins/goodlayers-core/include/css/page-builder.css' type=text/css media=all />
+    <link rel=stylesheet href='plugins/revslider/public/assets/css/settings.css' type=text/css media=all />
+    <link rel=stylesheet href='css/style-core.css' type=text/css media=all />
+    <link rel=stylesheet href='css/ztudiox-style-custom.css' type=text/css media=all />
+
+    <link rel=stylesheet id=gdlr-core-google-font-css href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext%2Cdevanagari%2Ccyrillic-ext%2Cvietnamese%2Ccyrillic&amp;ver=5.0.3' type=text/css media=all />
+	<meta charset="utf-8">
 <!-- /css files -->
+	
+<!-- 引入 echarts.js -->
+    <script src="js/echarts.js"></script>
+	<script src="js/echarts.min.js"></script>
 	
 <style type="text/css">
             .col-xs-1-5,
@@ -83,9 +95,11 @@
 </head>
 	
 	
-<body class="home page-template-default page page-id-2039 gdlr-core-body ztudiox-body ztudiox-body-front ztudiox-full  ztudiox-with-sticky-navigation  ztudiox-blockquote-style-1 gdlr-core-link-to-lightbox" style="cursor:url('images/love.cur'),auto;">
+<body class="home page-template-default page page-id-2039 gdlr-core-body ztudiox-body ztudiox-body-front ztudiox-full  ztudiox-with-sticky-navigation  ztudiox-blockquote-style-1 gdlr-core-link-to-lightbox" style="cursor:url('images/bilibili.cur'),auto;">
 <!-- class保证导航栏永远浮动最上方 -->
 <!-- style自定义鼠标样式 -->
+	<canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
+    <script type="text/javascript" src="js/yanhua.js"></script>
 
 <!--bgm-->
 <audio autoplay="autoplay" loop="loop" preload="auto" src="music.mp3"></audio>
@@ -298,25 +312,853 @@
 </section>
 <!--热门分区-->
 	
-<!-- 各分区的特点旭日图section -->
-<section class="info-w3ls3">
-	<div class="container">
-		<h3 class="text-center wthree w3-agileits">B站各分区的小特点</h3>
-		<!--bootstrap 布局 col控制列数-->
-		<div class="col-lg-6 col-sm-12">
-			<!--旭日图放在这里-->
-			<img src="images/Huangxiaoming.jpg" alt="images/Huangxiaoming.jpg未加载" class="img-responsive">
-			<br>
-		</div>
-		<div class="col-lg-6 col-sm-12">
-			<!--关于旭日图的说明在这里-->
-			<h5 class="text-center"><span style="font-family: '李旭科书法'">各分区都有各个分区的小tag～</span></h5>
-			<p class="special-p1 text-center">关于不同分区的说明</p>
-		</div>
-		<div class="clearfix"></div>
-	</div>
+<!--分区热度比较-->
+<section class="info-w3ls3"
+                    <div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
+                        <div class=gdlr-core-pbf-background-wrap></div>
+                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+                                <!-- 图表板块 -->
+								<div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column_2" style="width:400px height:600px">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-1 data-sync-height-center>
+                                        <canvas class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content" id="main1-0" width="800" height="600"></canvas>
+										<!-- 引入Echarts的实现代码 -->	
+										<script type="text/javascript">
+											var chartDom = document.getElementById('main1-0');
+											var myChart = echarts.init(chartDom);
+											var option;
+											option = {
+												
+												toolbox: {
+													show: true,
+													feature: {
+														mark: {show: true},
+														dataView: {show: true, readOnly: false},
+														restore: {show: true},
+														saveAsImage: {show: true}
+													},
+												},
+												series: [
+													{
+														name: '面积模式',
+														type: 'pie',
+														radius: [30, 200],
+														center: ['50%', '50%'],
+														roseType: 'area',
+														itemStyle: {
+															borderRadius: 8,
+															normal:{
+																label:{
+																	textStyle:{
+																		fontSize: 15
+																	}
+																}
+															}
+														},
+														data: [
+															{value: 40, name: '动画区'},
+															{value: 38, name: '音乐区'},
+															{value: 32, name: '舞蹈区'},
+															{value: 30, name: '知识区'},
+															{value: 28, name: '生活区'},
+															{value: 26, name: '时尚区'},
+															{value: 22, name: '游戏区'},
+															{value: 18, name: '科技区'},
+															{value: 14, name: '鬼畜区'},
+															{value: 12, name: '影视区'}
+														]
+													}
+												]
+											};
+
+											option && myChart.setOption(option);
+										</script>
+                                    </div>
+                                </div>
+								<!-- 文字板块 -->
+                                <div class="gdlr-core-pbf-column gdlr-core-column-30" id=gdlr-core-column-1>
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="min-height: 580px ;padding: 90px 110px 90px 90px;" data-sync-height=half-1 data-sync-height-center>
+                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                                            <div class=gdlr-core-pbf-element>
+                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+                                                    <div class=gdlr-core-title-item-title-wrap>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">各区的热度比较<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight" style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;text-transform: uppercase ;color: #0a0a0a ;background-color: #f25d8e ;margin-top: 20px ;"><font color="#FFFFFF">数据来源于各区热门视频爬取</font></span></div>	
+                                            </div>
+                                            <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 0px ;color: #000000">
+                                            <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 0px ;color: #000000">
+                                                    <ul>
+                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">解释1</span></div>
+                                                        </li>
+                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">解释2</span></div>
+                                                        </li>
+                                                        
+                                                        
+                                                    </ul>
+                                            </div>
+											</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+	
+					<div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
+                        <div class=gdlr-core-pbf-background-wrap></div>
+                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+                                <!-- 文字板块 -->
+								<div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first" data-skin="Black Text" id=gdlr-core-column-2>
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="min-height: 580px ;padding: 90px 90px 90px 110px;" data-sync-height=half-2 data-sync-height-center>
+                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                                            <div class=gdlr-core-pbf-element>
+                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+                                                    <div class=gdlr-core-title-item-title-wrap>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">各分区都有自己的小tag～<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight" style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;text-transform: uppercase ;color: #0a0a0a ;background-color: #f25d8e ;margin-top: 20px ;"><font color="#FFFFFF">数据来源于B站什么的</font></span></div>
+                                            </div>
+                                            <div class=gdlr-core-pbf-element>
+                                                <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 0px ;">
+                                                    <ul>
+                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">该图表是响应式图表，你可以点击其中一个区，进入大图查看详情。</span></div>
+                                                        </li>
+                                                        
+                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">例如：</span></div>
+                                                        </li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+								<!-- 图表板块 -->
+                                <div class="gdlr-core-pbf-column gdlr-core-column-30">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-2 data-sync-height-center>
+										
+										<canvas class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content" id="main4" width="700" height="500"></canvas>
+										<script type="text/javascript">
+											// 基于准备好的dom，初始化echarts实例
+											var app = {};
+
+											var chartDom = document.getElementById('main4');
+											var myChart = echarts.init(chartDom);
+											var option;
+
+											var data = [{
+												name: '动画区',
+												itemStyle: {
+													color: '#da0d68'
+												},
+												children: [{
+													name: '',
+													value: 1,
+													itemStyle: {
+														color: '#975e6d'
+													}
+												}, {
+													name: 'Floral',
+													itemStyle: {
+														color: '#e0719c'
+													},
+													children: [{
+														name: 'Chamomile',
+														value: 1,
+														itemStyle: {
+															color: '#f99e1c'
+														}
+													}, {
+														name: 'Rose',
+														value: 1,
+														itemStyle: {
+															color: '#ef5a78'
+														}
+													}, {
+														name: 'Jasmine',
+														value: 1,
+														itemStyle: {
+															color: '#f7f1bd'
+														}
+													}]
+												}]
+											}, {
+												name: '音乐区',
+												itemStyle: {
+													color: '#da1d23'
+												},
+												children: [{
+													name: 'Berry',
+													itemStyle: {
+														color: '#dd4c51'
+													},
+													children: [{
+														name: 'Blackberry',
+														value: 1,
+														itemStyle: {
+															color: '#3e0317'
+														}
+													}, {
+														name: 'Raspberry',
+														value: 1,
+														itemStyle: {
+															color: '#e62969'
+														}
+													}, {
+														name: 'Blueberry',
+														value: 1,
+														itemStyle: {
+															color: '#6569b0'
+														}
+													}, {
+														name: 'Strawberry',
+														value: 1,
+														itemStyle: {
+															color: '#ef2d36'
+														}
+													}]
+												}, {
+													name: 'Dried Fruit',
+													itemStyle: {
+														color: '#c94a44'
+													},
+													children: [{
+														name: 'Raisin',
+														value: 1,
+														itemStyle: {
+															color: '#b53b54'
+														}
+													}, {
+														name: 'Prune',
+														value: 1,
+														itemStyle: {
+															color: '#a5446f'
+														}
+													}]
+												}, {
+													name: 'Other Fruit',
+													itemStyle: {
+														color: '#dd4c51'
+													},
+													children: [{
+														name: 'Coconut',
+														value: 1,
+														itemStyle: {
+															color: '#f2684b'
+														}
+													}, {
+														name: 'Cherry',
+														value: 1,
+														itemStyle: {
+															color: '#e73451'
+														}
+													}, {
+														name: 'Pomegranate',
+														value: 1,
+														itemStyle: {
+															color: '#e65656'
+														}
+													}, {
+														name: 'Pineapple',
+														value: 1,
+														itemStyle: {
+															color: '#f89a1c'
+														}
+													}, {
+														name: 'Grape',
+														value: 1,
+														itemStyle: {
+															color: '#aeb92c'
+														}
+													}, {
+														name: 'Apple',
+														value: 1,
+														itemStyle: {
+															color: '#4eb849'
+														}
+													}, {
+														name: 'Peach',
+														value: 1,
+														itemStyle: {
+															color: '#f68a5c'
+														}
+													}, {
+														name: 'Pear',
+														value: 1,
+														itemStyle: {
+															color: '#baa635'
+														}
+													}]
+												}, {
+													name: 'Citrus Fruit',
+													itemStyle: {
+														color: '#f7a128'
+													},
+													children: [{
+														name: 'Grapefruit',
+														value: 1,
+														itemStyle: {
+															color: '#f26355'
+														}
+													}, {
+														name: 'Orange',
+														value: 1,
+														itemStyle: {
+															color: '#e2631e'
+														}
+													}, {
+														name: 'Lemon',
+														value: 1,
+														itemStyle: {
+															color: '#fde404'
+														}
+													}, {
+														name: 'Lime',
+														value: 1,
+														itemStyle: {
+															color: '#7eb138'
+														}
+													}]
+												}]
+											}, {
+												name: '舞蹈区',
+												itemStyle: {
+													color: '#ebb40f'
+												},
+												children: [{
+													name: 'Sour',
+													itemStyle: {
+														color: '#e1c315'
+													},
+													children: [{
+														name: 'Sour Aromatics',
+														value: 1,
+														itemStyle: {
+															color: '#9ea718'
+														}
+													}, {
+														name: 'Acetic Acid',
+														value: 1,
+														itemStyle: {
+															color: '#94a76f'
+														}
+													}, {
+														name: 'Butyric Acid',
+														value: 1,
+														itemStyle: {
+															color: '#d0b24f'
+														}
+													}, {
+														name: 'Isovaleric Acid',
+														value: 1,
+														itemStyle: {
+															color: '#8eb646'
+														}
+													}, {
+														name: 'Citric Acid',
+														value: 1,
+														itemStyle: {
+															color: '#faef07'
+														}
+													}, {
+														name: 'Malic Acid',
+														value: 1,
+														itemStyle: {
+															color: '#c1ba07'
+														}
+													}]
+												}, {
+													name: 'Alcohol/\nFremented',
+													itemStyle: {
+														color: '#b09733'
+													},
+													children: [{
+														name: 'Winey',
+														value: 1,
+														itemStyle: {
+															color: '#8f1c53'
+														}
+													}, {
+														name: 'Whiskey',
+														value: 1,
+														itemStyle: {
+															color: '#b34039'
+														}
+													}, {
+														name: 'Fremented',
+														value: 1,
+														itemStyle: {
+															color: '#ba9232'
+														}
+													}, {
+														name: 'Overripe',
+														value: 1,
+														itemStyle: {
+															color: '#8b6439'
+														}
+													}]
+												}]
+											}, {
+												name: '知识区',
+												itemStyle: {
+													color: '#187a2f'
+												},
+												children: [{
+													name: 'Olive Oil',
+													value: 1,
+													itemStyle: {
+														color: '#a2b029'
+													}
+												}, {
+													name: 'Raw',
+													value: 1,
+													itemStyle: {
+														color: '#718933'
+													}
+												}, {
+													name: 'Green/\nVegetative',
+													itemStyle: {
+														color: '#3aa255'
+													},
+													children: [{
+														name: 'Under-ripe',
+														value: 1,
+														itemStyle: {
+															color: '#a2bb2b'
+														}
+													}, {
+														name: 'Peapod',
+														value: 1,
+														itemStyle: {
+															color: '#62aa3c'
+														}
+													}, {
+														name: 'Fresh',
+														value: 1,
+														itemStyle: {
+															color: '#03a653'
+														}
+													}, {
+														name: 'Dark Green',
+														value: 1,
+														itemStyle: {
+															color: '#038549'
+														}
+													}, {
+														name: 'Vegetative',
+														value: 1,
+														itemStyle: {
+															color: '#28b44b'
+														}
+													}, {
+														name: 'Hay-like',
+														value: 1,
+														itemStyle: {
+															color: '#a3a830'
+														}
+													}, {
+														name: 'Herb-like',
+														value: 1,
+														itemStyle: {
+															color: '#7ac141'
+														}
+													}]
+												}, {
+													name: 'Beany',
+													value: 1,
+													itemStyle: {
+														color: '#5e9a80'
+													}
+												}]
+											}, {
+												name: '生活区',
+												itemStyle: {
+													color: '#0aa3b5'
+												},
+												children: [{
+													name: 'Papery/Musty',
+													itemStyle: {
+														color: '#9db2b7'
+													},
+													children: [{
+														name: 'Stale',
+														value: 1,
+														itemStyle: {
+															color: '#8b8c90'
+														}
+													}, {
+														name: 'Cardboard',
+														value: 1,
+														itemStyle: {
+															color: '#beb276'
+														}
+													}, {
+														name: 'Papery',
+														value: 1,
+														itemStyle: {
+															color: '#fefef4'
+														}
+													}, {
+														name: 'Woody',
+														value: 1,
+														itemStyle: {
+															color: '#744e03'
+														}
+													}, {
+														name: 'Moldy/Damp',
+														value: 1,
+														itemStyle: {
+															color: '#a3a36f'
+														}
+													}, {
+														name: 'Musty/Dusty',
+														value: 1,
+														itemStyle: {
+															color: '#c9b583'
+														}
+													}, {
+														name: 'Musty/Earthy',
+														value: 1,
+														itemStyle: {
+															color: '#978847'
+														}
+													}, {
+														name: 'Animalic',
+														value: 1,
+														itemStyle: {
+															color: '#9d977f'
+														}
+													}, {
+														name: 'Meaty Brothy',
+														value: 1,
+														itemStyle: {
+															color: '#cc7b6a'
+														}
+													}, {
+														name: 'Phenolic',
+														value: 1,
+														itemStyle: {
+															color: '#db646a'
+														}
+													}]
+												}, {
+													name: 'Chemical',
+													itemStyle: {
+														color: '#76c0cb'
+													},
+													children: [{
+														name: 'Bitter',
+														value: 1,
+														itemStyle: {
+															color: '#80a89d'
+														}
+													}, {
+														name: 'Salty',
+														value: 1,
+														itemStyle: {
+															color: '#def2fd'
+														}
+													}, {
+														name: 'Medicinal',
+														value: 1,
+														itemStyle: {
+															color: '#7a9bae'
+														}
+													}, {
+														name: 'Petroleum',
+														value: 1,
+														itemStyle: {
+															color: '#039fb8'
+														}
+													}, {
+														name: 'Skunky',
+														value: 1,
+														itemStyle: {
+															color: '#5e777b'
+														}
+													}, {
+														name: 'Rubber',
+														value: 1,
+														itemStyle: {
+															color: '#120c0c'
+														}
+													}]
+												}]
+											}, {
+												name: '时尚区',
+												itemStyle: {
+													color: '#c94930'
+												},
+												children: [{
+													name: 'Pipe Tobacco',
+													value: 1,
+													itemStyle: {
+														color: '#caa465'
+													}
+												}, {
+													name: 'Tobacco',
+													value: 1,
+													itemStyle: {
+														color: '#dfbd7e'
+													}
+												}, {
+													name: 'Burnt',
+													itemStyle: {
+														color: '#be8663'
+													},
+													children: [{
+														name: 'Acrid',
+														value: 1,
+														itemStyle: {
+															color: '#b9a449'
+														}
+													}, {
+														name: 'Ashy',
+														value: 1,
+														itemStyle: {
+															color: '#899893'
+														}
+													}, {
+														name: 'Smoky',
+														value: 1,
+														itemStyle: {
+															color: '#a1743b'
+														}
+													}, {
+														name: 'Brown, Roast',
+														value: 1,
+														itemStyle: {
+															color: '#894810'
+														}
+													}]
+												}, {
+													name: 'Cereal',
+													itemStyle: {
+														color: '#ddaf61'
+													},
+													children: [{
+														name: 'Grain',
+														value: 1,
+														itemStyle: {
+															color: '#b7906f'
+														}
+													}, {
+														name: 'Malt',
+														value: 1,
+														itemStyle: {
+															color: '#eb9d5f'
+														}
+													}]
+												}]
+											}, {
+												name: '游戏区',
+												itemStyle: {
+													color: '#ad213e'
+												},
+												children: [{
+													name: 'Pungent',
+													value: 1,
+													itemStyle: {
+														color: '#794752'
+													}
+												}, {
+													name: 'Pepper',
+													value: 1,
+													itemStyle: {
+														color: '#cc3d41'
+													}
+												}, {
+													name: 'Brown Spice',
+													itemStyle: {
+														color: '#b14d57'
+													},
+													children: [{
+														name: 'Anise',
+														value: 1,
+														itemStyle: {
+															color: '#c78936'
+														}
+													}, {
+														name: 'Nutmeg',
+														value: 1,
+														itemStyle: {
+															color: '#8c292c'
+														}
+													}, {
+														name: 'Cinnamon',
+														value: 1,
+														itemStyle: {
+															color: '#e5762e'
+														}
+													}, {
+														name: 'Clove',
+														value: 1,
+														itemStyle: {
+															color: '#a16c5a'
+														}
+													}]
+												}]
+											}, {
+												name: '科技区',
+												itemStyle: {
+													color: '#a87b64'
+												},
+												children: [{
+													name: 'Nutty',
+													itemStyle: {
+														color: '#c78869'
+													},
+													children: [ {
+														name: 'Peanuts',
+														value: 1,
+														itemStyle: {
+															color: '#d4ad12'
+														}
+													}, {
+														name: 'Hazelnut',
+														value: 1,
+														itemStyle: {
+															color: '#9d5433'
+														}
+													}, {
+														name: 'Almond',
+														value: 1,
+														itemStyle: {
+															color: '#c89f83'
+														}
+													}]
+												}, {
+													name: 'Cocoa',
+													itemStyle: {
+														color: '#bb764c'
+													},
+													children: [{
+														name: 'Chocolate',
+														value: 1,
+														itemStyle: {
+															color: '#692a19'
+														}
+													}, {
+														name: 'Dark Chocolate',
+														value: 1,
+														itemStyle: {
+															color: '#470604'
+														}
+													}]
+												}]
+											}, {
+												name: '影视区',
+												itemStyle: {
+													color: '#e65832'
+												},
+												children: [{
+													name: 'Brown Sugar',
+													itemStyle: {
+														color: '#d45a59'
+													},
+													children: [{
+														name: 'Molasses',
+														value: 1,
+														itemStyle: {
+															color: '#310d0f'
+														}
+													}, {
+														name: 'Maple Syrup',
+														value: 1,
+														itemStyle: {
+															color: '#ae341f'
+														}
+													}, {
+														name: 'Caramelized',
+														value: 1,
+														itemStyle: {
+															color: '#d78823'
+														}
+													}, {
+														name: 'Honey',
+														value: 1,
+														itemStyle: {
+															color: '#da5c1f'
+														}
+													}]
+												}, {
+													name: 'Vanilla',
+													value: 1,
+													itemStyle: {
+														color: '#f89a80'
+													}
+												}, {
+													name: 'Vanillin',
+													value: 1,
+													itemStyle: {
+														color: '#f37674'
+													}
+												}, {
+													name: 'Overall Sweet',
+													value: 1,
+													itemStyle: {
+														color: '#e75b68'
+													}
+												}, {
+													name: 'Sweet Aromatics',
+													value: 1,
+													itemStyle: {
+														color: '#d0545f'
+													}
+												}]
+											}];
+
+											option = {
+												series: {
+													type: 'sunburst',
+
+													data: data,
+													radius: [0, '95%'],
+													sort: null,
+
+													emphasis: {
+														focus: 'ancestor'
+													},
+
+													levels: [{}, {
+														r0: '15%',
+														r: '35%',
+														itemStyle: {
+															borderWidth: 2
+														},
+														label: {
+															rotate: 'tangential'
+														}
+													}, {
+														r0: '35%',
+														r: '70%',
+														label: {
+															align: 'right'
+														}
+													}, {
+														r0: '70%',
+														r: '72%',
+														label: {
+															position: 'outside',
+															padding: 3,
+															silent: false
+														},
+														itemStyle: {
+															borderWidth: 3
+														}
+													}]
+												}
+											};
+											myChart.setOption(option);
+										</script>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
 </section>
-<!-- 各分区特点section -->
 	
 <!--知名up主section -->
 <section class="info-w3ls3">
@@ -428,19 +1270,243 @@
 <!--用户的地理分布section -->
 <section class="info-w3ls3">
 	<div class="container">
-		<h3 class="text-center wthree w3-agileits">用户分布</h3>
-		<!--bootstrap 布局 col控制列数-->
-		<div class="col-lg-6 col-sm-12">
-			<h5 class="text-center"><span style="font-family: '李旭科书法'">B站的用户来自五湖四海</span></h5>
-			<p class="special-p1 text-center">关于用户分布的说明</p>
-		</div>
-		<div class="col-lg-6 col-sm-12">
-			<!--地图在这里-->
-			<img src="images/Huangxiaoming.jpg" alt="images/Huangxiaoming.jpg未加载" class="img-responsive">
-			<br>
-		</div>
-		<div class="clearfix"></div>
-	</div>
+		<h3 class="text-center wthree w3-agileits">B站用户的地理分布</h3>
+		<div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
+                        <div class=gdlr-core-pbf-background-wrap></div>
+                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+								<!-- 图表板块 -->
+								<div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column_2" style="width:400px height:600px">
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-1 data-sync-height-center>
+                                        <canvas class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content" id="main5" width="700" height="600"></canvas>
+										<script src="js/china.js"></script>
+										<script type="text/javascript">
+											var myChart = echarts.init(document.getElementById('main5'));
+											function randomData() {
+												return Math.round(Math.random()*1000);
+											}
+											option = {
+    
+												tooltip: {
+													trigger: 'item'
+												},
+												legend: {
+													orient: 'vertical',
+													left: 'left',
+													data: 'iphone3'
+												},
+												visualMap: {
+													min: 1,
+													max: 138,
+													left: 'left',
+													top: 'bottom',
+													text: ['高', '低'], // 文本，默认为数值文本
+													calculable: true,
+													color: ['#f25d8e','#ffffff'],
+												},
+												toolbox: {
+													show: true,
+													orient: 'vertical',
+													left: 'right',
+													top: 'center',
+													feature: {
+														dataView: {
+															readOnly: false
+														},
+														restore: {},
+														saveAsImage: {}
+													},
+												},
+												series: [{
+													name: 'iphone3',
+													type: 'map',
+													mapType: 'china',
+													roam: false,
+													label: {
+														normal: {
+															show: true
+														},
+														emphasis: {
+															show: true
+														}
+													},
+													data: [{
+															name: '北京',
+															value: '123'
+														},
+														{
+															name: '上海',
+															value: '81'
+														},
+														{
+															name: '重庆',
+															value: '26'
+														},
+														{
+															name: '天津',
+															value: '13'
+														},
+														{
+															name: '内蒙古',
+															value: '18'
+														},
+														{
+															name: '新疆',
+															value: '6'
+														},
+														{
+															name: '广西',
+															value: '12'
+														},
+														{
+															name: '宁夏',
+															value: '1'
+														},
+														{
+															name: '西藏',
+															value: '1'
+														},
+														{
+															name: '河北',
+															value: '20'
+														},
+														{
+															name: '山西',
+															value: '10'
+														},
+														{
+															name: '辽宁',
+															value: '23'
+														},
+														{
+															name: '吉林',
+															value: '13'
+														},
+														{
+															name: '黑龙江',
+															value: '15'
+														},
+														{
+															name: '江苏',
+															value: '59'
+														},
+														{
+															name: '浙江',
+															value: '62'
+														},
+														{
+															name: '安徽',
+															value: '16'
+														},
+														{
+															name: '福建',
+															value: '34'
+														},
+														{
+															name: '江西',
+															value: '8'
+														},
+														{
+															name: '山东',
+															value: '32'
+														},
+														{
+															name: '台湾',
+															value: '10'
+														},
+														{
+															name: '河南',
+															value: '34'
+														},
+														{
+															name: '湖北',
+															value: '42'
+														},
+														{
+															name: '湖南',
+															value: '29'
+														},
+														{
+															name: '广东',
+															value: '138'
+														},
+														{
+															name: '海南',
+															value: '4'
+														},
+														{
+															name: '四川',
+															value: '50'
+														},
+														{
+															name: '贵州',
+															value: '12'
+														},
+														{
+															name: '云南',
+															value: '11'
+														},
+														{
+															name: '陕西',
+															value: '22'
+														},
+														{
+															name: '甘肃',
+															value: '4'
+														},
+														{
+															name: '青海',
+															value: '1'
+														},
+														{
+															name: '香港',
+															value: '9'
+														},
+														{
+															name: '澳门',
+															value: '2'
+														},
+
+													]
+												}, ]
+											};
+											myChart.setOption(option);
+										</script>	
+                                    </div>
+                                </div>
+								<!-- 文字板块 -->
+                                <div class="gdlr-core-pbf-column gdlr-core-column-30" id=gdlr-core-column-1>
+                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="min-height: 580px ;padding: 90px 110px 90px 90px;" data-sync-height=half-1 data-sync-height-center>
+                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+                                            <div class=gdlr-core-pbf-element>
+                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+                                                    <div class=gdlr-core-title-item-title-wrap>
+                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">B站用户遍布五湖四海<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight" style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;color: #ffffff ;background-color: #f25d8e ;margin-top: 20px ;">数据来源于bilibili用户信息爬取</span></div>
+                                            </div>
+                                            <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 0px ;color: #000000">
+                                            <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 0px ;color: #000000">
+                                                    <ul>
+                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">解释1</span></div>
+                                                        </li>
+                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">解释2</span></div>
+                                                        </li>
+														<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">解释3</span></div>
+                                                        </li>
+                                                        
+                                                        
+                                                    </ul>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                    	</div>
+                    </div>
+
 </section>
 <!-- 用户分布section -->
 	

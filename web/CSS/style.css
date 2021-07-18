@@ -321,7 +321,7 @@ section.info-w3ls h3.text-center,section.info-w3ls2 h3.text-center,section.info-
 }
 section.info-w3ls h3.text-center:after,section.info-w3ls2 h3.text-center:after,section.info-w3ls3 h3.text-center:after,section.special-w3layouts h3.text-center:after  {
 	content: '';
-    background-color: #33accc;
+    background-color: #f25d8e;
     height: 5px;
     width: 230px;
     position: absolute;
