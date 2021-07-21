@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang=en-US class=no-js>
+
+	<!-- 头文件 -->
+	<head>
+
+		<meta charset=UTF-8>
+		<meta charset="utf-8">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+
+		<title>生活区</title>
+		<!-- 引入制作网页需要的素材 -->
+		<link rel=stylesheet href='plugins/goodlayers-core/plugins/combine/style.css' type=text/css media=all />
+		<link rel=stylesheet href='plugins/goodlayers-core/include/css/page-builder.css' type=text/css media=all />
+		<link rel=stylesheet href='plugins/revslider/public/assets/css/settings.css' type=text/css media=all />
+		<link rel=stylesheet href='css/style-core.css' type=text/css media=all />
+		<link rel=stylesheet href='css/ztudiox-style-custom.css' type=text/css media=all />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+		<link rel=stylesheet id=gdlr-core-google-font-css
+			href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;subset=latin%2Clatin-ext%2Cdevanagari%2Ccyrillic-ext%2Cvietnamese%2Ccyrillic&amp;ver=5.0.3'
+			type=text/css media=all />
+		<!-- 引入 echarts.js -->
+		<script src="js/echarts.js"></script>
+		<script src="js/echarts.min.js"></script>
+
+		<!--新加库-->
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/demo.css">
+		<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+		<script type="text/javascript" src="js/echarts.min.js"></script>
+		<script type="text/javascript" src="js/demo.js"></script>
+		<style type="text/css">
+			.li li {
+				line-height: 40px;
+				cursor: pointer;
+				font-size: 15px;
+				margin: 0 auto;
+				
+			}
+
+			.ul {
+				width: 80px;
+				background: white;
+				position: absolute;
+				z-index: 9999;
+				right:50px;
+				display: none;
+			}
+
+			.li:hover .ul {
+				display: block;
+			}
+
+			.part-one {
+				width: 100%;
+				height: 750px;
+				background: url(./images/生活.jpg) no-repeat 0 0;
+				background-size: 100%;
+				transition: all 0.5s;
+			}
+
+		</style>
+	</head>
+
+	<body
+		class="home page-template-default page page-id-2039 gdlr-core-body ztudiox-body ztudiox-body-front ztudiox-full  ztudiox-with-sticky-navigation  ztudiox-blockquote-style-1 gdlr-core-link-to-lightbox"
+		style="cursor:url('images/bilibili.cur'),auto;">
+		<!-- class保证导航栏永远浮动最上方 -->
+		<!-- style自定义鼠标样式 -->
+		<canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"></canvas>
+		<script type="text/javascript" src="js/yanhua.js"></script>
+
+
+		<!-- 网页主体 -->
+		<div class="ztudiox-mobile-header-wrap" style="background-color:#F25D8E">
+			<div class="ztudiox-mobile-header ztudiox-header-background ztudiox-style-slide ztudiox-sticky-mobile-navigation "
+				id="ztudiox-mobile-header">
+				<div class="ztudiox-mobile-header-container ztudiox-container clearfix">
+					<!--左上角logo-->
+					<div class="ztudiox-logo  ztudiox-item-pdlr">
+						<div class="ztudiox-logo-inner">
+							<a class href="Home.html"><img src="bilibili.png" alt width="193" height="29"></a>
+							<!--这里的src插入左上角的图标-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- 导航栏 -->
+		<div class="ztudiox-body-outer-wrapper">
+			<div class="ztudiox-body-wrapper clearfix  ztudiox-with-frame">
+				<header
+					class="ztudiox-header-wrap ztudiox-header-style-plain  ztudiox-style-menu-right ztudiox-sticky-navigation ztudiox-style-fixed"
+					data-navigation-offset="75px">
+					<!-- 导航栏底板 -->
+					<div class="ztudiox-header-background"></div>
+					<!-- /导航栏底板 -->
+					<div class="ztudiox-header-container  ztudiox-header-full">
+						<div class="ztudiox-header-container-inner clearfix">
+							<div class="page-wrapper" style="position: sticky">
+								<nav>
+									<div class="nav-content">
+										<span>我</span>
+										<span>💕</span>
+										<span>我</span>
+										<span>的</span>
+										<span>小</span>
+										<span>破</span>
+										<span>站</span>
+									</div>
+								</nav>
+							</div>
+							<div class="ztudiox-navigation ztudiox-item-pdlr clearfix ">
+								<div class="ztudiox-main-menu" id="ztudiox-main-menu">
+									<ul id="menu-main-navigation-1" class="sf-menu">
+										<li class="menu-item menu-item-home current-menu-item  ztudiox-normal-menu">
+											<!--bgm-->
+											<audio autoplay="autoplay" controls="controls"
+												style="display: block; margin: 5px auto; right: 300px; color: transparent;"
+												loop="loop" preload="auto" src="生活区音乐.mp3"></audio>
+											<!--"autoplay"自动播放,"controls"显示控件,"loop"音乐重复播放,"auto"音频在页面加载的同时进行加载-->
+											<!--/bgm-->
+										</li>
+										<li><a href="index.html">首页</a></li>
+										<li><a href="发家史/fazhanshi.html">发展史</a></li>
+										<li class="li" style="color: #33accc;"><a >分区</a>
+											
+										</li>
+										<script src="js/jquery-1.10.1.js" type="text/javascript" charset="utf-8"></script>
+										<script type="text/javascript">
+											$(".li").click(function(){
+												$(".ul").toggle()
+											})
+											
+										</script>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+		</div>
+		<!-- /导航栏 -->
+			<ul class="ul" id="aa" style="position: absolute;z-index: 99999;text-align: center;line-height: 50px;font-size: 15px;">
+				<li style="list-style: none;"><a href="donghuaqu.html">番剧</a></li>
+				<li style="list-style: none;"><a href="zhishiqu.html">知识</a></li>
+				<li style="list-style: none;"><a href="donghuaqu.html">动画</a></li>
+				<li style="list-style: none;"><a href="guichuqu.tml">鬼畜</a></li>
+				<li style="list-style: none;"><a href="wudaoqu.html">漫画</a></li>
+				<li style="list-style: none;"><a href="wudaoqu.html">舞蹈</a></li>
+				<li style="list-style: none;"><a href="yinyuequ.html">音乐</a></li>
+				<li style="list-style: none;"><a href="shenghuoqu.html">生活</a></li>
+				<li style="list-style: none;"><a href="yinyuequ.html">运动</a></li>
+				<li style="list-style: none;"><a href="shenghuoqu.html">科技</a></li>
+			</ul>
+		<div class="part-one" style="z-index: 900;position: static">
+			<div class="area-text">
+				<font color="#000000">生   活   区</font>
+			</div>
+		</div>
+
+		<!-- 网页第一版面设计 -->
+		<div class="ztudiox-page-title-wrap  ztudiox-style-large ztudiox-center-align">
+			<div class=ztudiox-header-transparent-substitute></div>
+			<div class="ztudiox-page-title-container ztudiox-container">
+				<!-- 网页大标题文字部分 -->
+				<div class="ztudiox-page-title-content ztudiox-item-pdlr">
+					<h1 class="ztudiox-page-title">
+						<font color="#F25D8E">生活区</font></span>
+					</h1>
+					<div class=ztudiox-page-caption>生活区的描述</div>
+				</div>
+
+				<div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
+					<div class=gdlr-core-pbf-background-wrap></div>
+					<div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+						<div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+							<!-- 图表板块 -->
+							<div class="gdlr-core-pbf-column gdlr-core-column-60" id="gdlr-core-column_2"
+								style="width:400px height:600px">
+								<div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-1
+									data-sync-height-center>
+									<div class="container">
+										<canvas
+											class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content"
+											id="main1-1" width="800" height="600"></canvas>
+									</div>
+									<!-- 引入Echarts的实现代码 -->	
+									<script type="text/javascript">
+										var chartDom = document.getElementById('main1-1');
+										var myChart = echarts.init(chartDom);
+										var option;
+										option = {
+											xAxis: {
+												type: 'category',
+												data: ['点赞', '投币', '收藏'],
+												axisLabel: {
+													fontSize: 20,
+												},
+											},
+											yAxis: {
+												type: 'value'
+											},
+											axisLine:{
+												show: true
+											},
+											series: [{
+												label: {
+													show: true,
+													position: 'top',
+													fontSize:20
+												},
+												data: [
+												{
+													value: 200751,
+													itemStyle: {
+													color: '#F25D8E'
+													}
+												}, 
+												{ 
+													value: 88986,
+													itemStyle: {
+													color: '#F25D8E'
+													}
+												}, 
+												{ 
+													value: 23403,
+													itemStyle: {
+													color: '#F25D8E'
+													}
+												}],
+												type: 'bar'
+											}]
+										};
+
+										myChart.setOption(option);
+									</script>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<h4>生活区是B站流量较大，门槛较低的分区，相较于其他分区更能体现b站用户的亚文化需求和亚文化属性。在生活区中，搞笑类，美食类等视频较多，人们更多从生活区的视频中获得快乐，从点赞数远多于投币数，收藏数的现象中，可见一斑。</h4>
+				<!-- <h3>生活区是B站流量较大，门槛较低的分区，相较于其他分区更能体现b站用户的亚文化需求和亚文化属性。在生活区中，搞笑类，美食类等视频较多，人们更多从生活区的视频中获得快乐，从点赞数远多于投币数，收藏数的现象中，可见一斑。</h3> -->
+				<!-- <h4>各种解释<br><br></h4> -->
+			</div>
+		</div>
+
+		<tr></tr>
+		<!-- <br></br><br></br><br></br>
+
+		<div class="part-two">
+			<div class="two-content">
+
+				<h1>
+					<font color="#f25d8e" size="+5">热门视频推荐</font>
+				</h1>
+				<div class="video-recom">
+					<di class="wrapper">
+						<!-- <div class="icon-mark"></div>
+						<div class="content" title="惊蛰">
+							<div class="mark1 sele"></div>
+							<div class="index">
+								<ul>
+                                    <li class="check" indexs="1">
+                                        <a href="https://www.bilibili.com/video/BV1uL411H7jA">
+                                            <span class="icon">1</span>
+                                            <h2 class="font-bold">【尬聊01】</h2>
+                                            <h3 class="descrip">找两个互不认识的UP主，让他们强行聊天会有多尬？</h3>
+                                        </a>
+                                    </li>
+                                    <li indexs="2">
+                                        <a href="https://www.bilibili.com/video/BV1wg411M7Gn">
+                                            <span>2</span>
+                                            <h2>PS5超级扭蛋机！</h2>
+                                            <h3 class="descrip show">30W日元挑战PS5超级扭蛋机！究竟能得到什么豪华奖品呢！</h3>
+                                        </a>
+                                    </li>
+                                    <li indexs="3">
+                                        <a href="https://www.bilibili.com/video/BV1dU4y137x2">
+                                            <span>3</span>
+                                            <h2>真没下次了！且珍惜！</h2>
+                                            <h3 class="descrip show"></h3>
+                                        </a>
+                                    </li>
+                                    <li indexs="4">
+                                        <a href="https://www.bilibili.com/video/BV1YM4y1K7i7">
+                                            <span>4</span>
+                                            <h2>【动物版】</h2>
+                                            <h3 class="descrip show">B站等级现状</h3>
+                                        </a>
+                                    </li>
+                                    <li indexs="5">
+                                        <a href="https://www.bilibili.com/video/BV1h64y1z7XS">
+                                            <span>5</span>
+                                            <h2>b站一次“热门”</h2>
+                                            <h3 class="descrip show">让我们全村都有了工作，谢谢大家一直以来的支持！</h3>
+                                        </a>
+                                    </li>
+                                    <li indexs="6">
+                                        <a href="https://www.bilibili.com/video/BV1f54y1n7C8">
+                                            <span>6</span>
+                                            <h2>【微缩场景】</h2>
+                                            <h3 class="descrip show">dota2全地图制作第三期</h3>
+                                        </a>
+                                    </li>
+                                    <li indexs="7">
+                                        <a href="https://www.bilibili.com/video/BV1Qw411d7Yd">
+                                            <span>7</span>
+                                            <h2>再也不读圆周率了。。。</h2>
+                                            <h3 class="descrip show">哭了，再也不敢了...</h3>
+                                        </a>
+                                    </li>
+                                </ul>
+							</div>
+						</div>
+					</di>
+				</div>
+			</div>
+		</div> -->
+
+		<div class=ztudiox-page-wrapper id=ztudiox-page-wrapper>
+			<!-- 每个分析板块 -->
+			<div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
+				<div class=gdlr-core-pbf-background-wrap></div>
+				<div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+					<div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+						<!-- 文字板块 -->
+						<div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first"
+							data-skin="Black Text" id=gdlr-core-column-2>
+							<div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
+								style="min-height: 580px ;padding: 90px 90px 90px 110px;" data-sync-height=half-2
+								data-sync-height-center>
+								<div
+									class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+									<div class=gdlr-core-pbf-element>
+										<div
+											class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+											<div class=gdlr-core-title-item-title-wrap>
+												<h3 class="gdlr-core-title-item-title gdlr-core-skin-title "
+													style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">
+													来自生活区的“梗”们：弹幕词云<span
+														class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+												</h3>
+											</div><span
+												class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight"
+												style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;color: #0a0a0a ;background-color: #f25d8e ;margin-top: 20px ;">
+												<font color="#FFFFFF">数据来源于bilibili生活区热门视频的弹幕的爬取</font>
+											</span>
+										</div>
+									</div>
+									<div class=gdlr-core-pbf-element>
+										<div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix "
+											style="padding-bottom: 0px ;">
+											<ul>
+												<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+													<div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700">有很多表示笑和表示开心的网络用语，体现了生活区搞笑类视频较多的特点</span></div>
+												</li>
+												<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+													<div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700">有关导师，延毕，SCI，论文等弹幕热词可以联想到最近比较火热的“梗”——“三句话让男人为我花了18万”衍生出的“三句话让导师为我发了一篇SCI”等衍生视频，体现了生活区年轻人的亚文化属性。</span></div>
+												</li>
+												<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+													<div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700">doge，离谱，BGM，爷青回等都是网络热词，体现了生活区以及B站用户年龄较小的特点</span></div>
+												</li>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 图表板块 -->
+						<div class="gdlr-core-pbf-column gdlr-core-column-30">
+							<div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-2
+								data-sync-height-center>
+								<img src="images/生活区弹幕.png" style="width:700px;z-index:-1; "></image> 
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+
+			<!-- 每个分析板块 -->
+			<div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
+				<div class=gdlr-core-pbf-background-wrap></div>
+				<div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+					<div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+						<!-- 文字板块 -->
+						<div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first"
+							data-skin="Black Text" id=gdlr-core-column-2>
+							<div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
+								style="min-height: 580px ;padding: 90px 90px 90px 110px;" data-sync-height=half-2
+								data-sync-height-center>
+								<div
+									class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+									<div class=gdlr-core-pbf-element>
+										<div
+											class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+											<div class=gdlr-core-title-item-title-wrap>
+												<h3 class="gdlr-core-title-item-title gdlr-core-skin-title "
+													style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">
+													来自生活区的“梗”们：评论词云<span
+														class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+												</h3>
+											</div><span
+												class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight"
+												style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;color: #0a0a0a ;background-color: #f25d8e ;margin-top: 20px ;">
+												<font color="#FFFFFF">数据来源于bilibili生活区热门视频的评论的爬取</font>
+											</span>
+										</div>
+									</div>
+									<div class=gdlr-core-pbf-element>
+										<div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix "
+											style="padding-bottom: 0px ;">
+											<ul>
+												<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+													<div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700">投币一词多用于up与粉丝互动的情景，体现了B站up主与粉丝之间和谐良好的氛围</span></div>
+												</li>
+												<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+													<div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700">优秀，打call，守护，太棒等是粉丝用于夸赞、鼓励up主的用语，体现了B站良好的生态文化</span></div>
+												</li>
+												<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+													<div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700">出现了中华，传承，文化等评论热词，说明热门视频中有弘扬中国传统文化的视频，证明B站对于年轻人</span></div>
+												</li>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 图表板块 -->
+						<div class="gdlr-core-pbf-column gdlr-core-column-30">
+							<div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-2
+								data-sync-height-center>
+								<img src="images/生活区评论.png" style="width:700px  "></image>  
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<hr>
+			</hr>
+
+			<!-- 网页第一版面设计 -->
+			<div class="ztudiox-page-title-wrap  ztudiox-style-large ztudiox-center-align">
+				<div class=ztudiox-header-transparent-substitute></div>
+				<div class="ztudiox-page-title-container ztudiox-container">
+					<!-- 网页大标题文字部分 -->
+					<div class="ztudiox-page-title-content ztudiox-item-pdlr">
+						<div class=ztudiox-page-title>
+							<font color="f25d8e" ; size="15">生活区的用户特征</font>
+						</div>
+					</div>
+
+					<div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
+						<div class=gdlr-core-pbf-background-wrap></div>
+						<div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+							<div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+								<div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first"
+									data-skin="Black Text" id=gdlr-core-column-2>
+									<div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
+										style="min-height: 580px ;padding: 90px 90px 90px 110px;"
+										data-sync-height=half-2 data-sync-height-center>
+										<div
+											class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+											<div class=gdlr-core-pbf-element>
+												<div
+													class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+													<div class=gdlr-core-title-item-title-wrap>
+														<h3 class="gdlr-core-title-item-title gdlr-core-skin-title "
+															style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">
+															生活区的用户有什么样的特点呢？<span
+																class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+														</h3>
+													</div><span
+														class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight"
+														style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;color: #ffffff ;background-color: #f25d8e ;margin-top: 20px ;">数据来源于bilibili用户信息爬取</span>
+												</div>
+											</div>
+											<div class=gdlr-core-pbf-element>
+												<div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix "
+													style="padding-bottom: 0px ;">
+													<ul>
+                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">生活区与其他分区相比粉丝性别比例已经是较为均衡的了，但男性粉丝的数量仍比女性数量多很多，在整体上反映了B站粉丝数量性别比例</span></div>
+                                                        </li>
+                                                        <!-- <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">由图表可知，这些粉丝微博账户的粉丝数绝大部分在500以下，可知该节目的活跃粉丝大多为普通用户，名人或者大V营销号占少数。</span></div>
+                                                        </li> -->
+                                                        
+                                                    </ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="gdlr-core-pbf-column gdlr-core-column-30">
+									<div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
+										data-sync-height=half-2 data-sync-height-center>
+										<canvas
+											class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content"
+											id="main6" width="700" height="500"></canvas>
+										<script type="text/javascript">
+											// 基于准备好的dom，初始化echarts实例
+											var chartDom = document.getElementById('main6');
+											var myChart = echarts.init(chartDom);
+											var option;
+
+											option = {
+												tooltip: {
+													trigger: 'item'
+												},
+												series: [{
+													type: 'pie',
+													radius: '50%',
+													data: [{
+															value: 566,
+															name: '男:56.6%',
+															itemStyle: {
+																color: '#87CEFA'
+															}
+														},
+														{
+															value: 434,
+															name: '女:43.4%',
+															itemStyle: {
+																color: '#f25d8e'
+															}
+														}
+													],
+													emphasis: {
+														itemStyle: {
+															shadowBlur: 10,
+															shadowOffsetX: 0,
+															shadowColor: 'rgba(0, 0, 0, 0.5)'
+														}
+													},
+													label: {
+														normal: {
+															show: true,
+															position: 'outer',
+															textStyle: {
+																fontSize: 15
+															}
+														}
+													},
+
+												}]
+											};
+											// 使用刚指定的配置项和数据显示图表。
+											myChart.setOption(option);
+										</script>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+					</hr>
+
+					<div class="gdlr-core-pbf-wrapper " style="padding: 0px 0px 0px 0px;">
+						<div class=gdlr-core-pbf-background-wrap></div>
+						<div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
+							<div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space">
+								<!-- 图表板块 -->
+								<div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column_2"
+									style="width:500px height:600px">
+									<div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
+										data-sync-height=half-1 data-sync-height-center>
+										<canvas
+											class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content"
+											id="main8" width="600" height="400"></canvas>
+										<!-- 引入Echarts的实现代码 -->
+										<script type="text/javascript">
+											var chartDom = document.getElementById('main8');
+											var myChart = echarts.init(chartDom);
+											var option;
+
+											option = {
+												xAxis: {
+													type: 'category',
+													data: ['LV1', 'LV2', 'LV3', 'LV4', 'LV5', 'LV6']
+												},
+												yAxis: {
+													type: 'value'
+												},
+												axisLine:{
+													show: true
+												},
+												series: [{
+													label: {
+														show: true,
+														position: 'top',
+														fontSize:13
+													},
+													data: [0, 135, 432, 1108, 2361, 510],
+													type: 'bar',
+													itemStyle: {
+														color: '#f25d8e'
+													}
+												}]
+											};
+
+
+
+											option && myChart.setOption(option);
+										</script>
+									</div>
+								</div>
+								<!-- 文字板块 -->
+								<div class="gdlr-core-pbf-column gdlr-core-column-30" id=gdlr-core-column-1>
+									<div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
+										style="min-height: 580px ;padding: 90px 110px 90px 90px;"
+										data-sync-height=half-1 data-sync-height-center>
+										<div
+											class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+											<div class=gdlr-core-pbf-element>
+												<div
+													class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+													<div class=gdlr-core-title-item-title-wrap>
+														<h3 class="gdlr-core-title-item-title gdlr-core-skin-title "
+															style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">
+															活跃用户等级分布<span
+																class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+														</h3>
+													</div><span
+														class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight"
+														style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;text-transform: uppercase ;color: #0a0a0a ;background-color: #f25d8e ;margin-top: 20px ;">
+														<font color="#FFFFFF">数据来源于活跃用户信息爬取</font>
+													</span>
+												</div>
+											</div>
+											<div class="gdlr-core-icon-list-item gdlr-core-left-align gdlr-core-item-pdlr gdlr-core-item-pdb clearfix "
+												style="padding-bottom: 0px ;color: #000000">
+												<div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix "
+													style="padding-bottom: 0px ;color: #000000">
+													<ul>
+                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">生活区LV5的粉丝数量最多，LV5的粉丝大多不发视频，但从很久以前便开始关注B站，并且熟练使用B站，说明现阶段B站生活区是B站的核心分区之一</span></div>
+                                                        </li>
+                                                        <!-- <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">解释2</span></div>
+                                                        </li> -->
+                                                        
+                                                        
+                                                    </ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<hr>
+					</hr>
+
+
+				</div>
+			</div>
+
+
+			<script src='js/jquery/jquery.js'></script>
+			<script src='js/jquery/jquery-migrate.min.js'></script>
+			<script src='plugins/goodlayers-core/plugins/combine/script.js'></script>
+			<script>
+				var gdlr_core_pbf = {
+					"admin": "",
+					"video": {
+						"width": "640",
+						"height": "360"
+					},
+					"ajax_url": "",
+					"ilightbox_skin": "dark"
+				};
+			</script>
+			<script src='plugins/goodlayers-core/include/js/page-builder.js'></script>
+			<script src='js/jquery/ui/effect.min.js'></script>
+			<script src='js/jquery.mmenu.min.js'></script>
+			<script src='js/jquery.superfish.min.js'></script>
+			<script>
+				var ztudiox_script_core = {
+					"home_url": "index.html"
+				};
+			</script>
+			<script src='js/script-core.js'></script>
+
+			<footer class="text-center">
+				<div class="container">
+					<div class="row">
+						<div class="ztudiox-copyright-text">
+							<h6>Copyright © 何石邵费林</h6>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+	</body>
+</html>
