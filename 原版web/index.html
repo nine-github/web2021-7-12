@@ -1,0 +1,1891 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/echarts.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/demo.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body{
+				position: relative;
+			}
+			.header_div{
+				width: 100%;
+				background: white;
+				position: fixed;
+				top:0;
+				z-index: 999;
+			}
+
+			.header {
+				width: 1400px;
+				margin: 0 auto;
+				height: 70px;
+			}
+
+			.title {
+				font-size: 25px;
+				font-weight: 600;
+				line-height: 70px;
+				float: left;
+			}
+
+			.daohang {
+				float: right;
+			}
+
+			.daohang>ul>li {
+				float: left;
+				margin-left: 60px;
+				line-height: 70px;
+				position: relative;
+
+			}
+
+			.daohang li {
+				list-style: none;
+				font-size: 15px;
+				width: 60px;
+				text-align: center;
+				cursor: pointer;
+			}
+
+			.daohang a {
+				text-decoration: none;
+				color: black;
+			}
+
+			.li li {
+				line-height: 40px;
+				cursor: pointer;
+				font-size: 15px;
+				margin: 0 auto;
+			}
+
+			.li ul {
+				display: none;
+				width: 80px;
+				background: white;
+				position: absolute;
+				z-index: 9999;
+			}
+
+			.li:hover .ul {
+				display: block;
+
+			}
+
+			.banner {
+				width: 100%;
+				height: 730px;
+				overflow: hidden;
+				position: relative;
+				margin-bottom: 70px;
+				margin-top: 70px;
+			}
+
+			.banner img {
+				position: absolute;
+				top: -70px;
+			}
+
+			.content1 {
+				width: 1400PX;
+				margin: 0 auto;
+
+			}
+
+			.content1 h1 {
+				text-align: center;
+				font-weight: 500;
+			}
+
+			.bt {
+				margin-top: 10px;
+				text-align: center;
+				color: #8f8f8f;
+			}
+
+			.fenlei {
+				width: 1400px;
+				margin-top: 40px;
+				margin-bottom: 60px;
+			}
+
+			.fenlei td {
+				width: 140px;
+				text-align: center;
+				font-family: '黑体';
+				padding-bottom: 10px;
+			}
+
+			.fenlei td:hover {
+				border-bottom: 2px solid #ffa97e;
+				cursor: pointer;
+			}
+
+			.fenlei td img {
+				width: 50%;
+			}
+
+			.fenqu1 {
+				width: 1400px;
+			}
+
+			.fenqu1 td {
+				width: 280px;
+				height: 420px;
+			}
+
+			.fenqu1 p {
+				width: 90%;
+				text-align: center;
+				font-size: 15px;
+				margin-top: 5px;
+			}
+
+			a {
+				text-decoration: none;
+				color: #000000;
+			}
+
+			#fq2 {
+				display: none;
+			}
+
+			#fq3 {
+				display: none;
+			}
+
+			#fq4 {
+				display: none;
+			}
+
+			#fq5 {
+				display: none;
+			}
+
+			.content2 {
+				width: 100%;
+				height: 700px;
+				margin-top: 60px;
+				margin-bottom: 60px;
+				position: relative;
+			}
+
+			.swiper-container {
+				width: 100%;
+				height: 100%;
+			}
+
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+
+			.tu {
+				height: 100%;
+				width: 100%;
+				position: relative;
+
+			}
+
+			.tu div {
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.5);
+				position: absolute;
+				z-index: 9999;
+			}
+
+			.tu img {
+				left: 0;
+				top: -120px;
+				width: 1920px;
+				position: absolute;
+			}
+
+			.content2 p {
+				position: absolute;
+				color: white;
+				font-size: 25px;
+				width: 100%;
+				text-align: center;
+				z-index: 99999;
+				font-family: '楷体';
+				bottom: 150px;
+			}
+
+			.content3 {
+				width: 1400px;
+				margin: 0 auto;
+				height:1560px;
+			}
+
+			.content3 h1 {
+				text-align: center;
+				font-weight: 500;
+			}
+
+			.content3 ul {
+				margin-top: 20px;
+			}
+
+			.content3>ul>li {
+				width: 325px;
+				height: 355px;
+				border: 1px solid #D1D1D1;
+				border-radius: 15px;
+				list-style: none;
+				overflow: hidden;
+				float: left;
+				margin-left: 18px;
+				margin-top: 20px;
+			}
+
+			.content3 .tu2 {
+				width: 100%;
+				height: 185px;
+			}
+
+			.content3 .wenzi {
+				width: 85%;
+				margin: 0 auto;
+
+				padding-top: 20px;
+				line-height: 30px;
+				font-size: 17px;
+			}
+
+			.content4 {
+				width: 1200px;
+				margin: 80px auto 0 auto;
+				height: 700px;
+				position: relative;
+			}
+
+			.content4 h1 {
+				
+				text-align: center;
+				font-weight: 500;
+				
+			}
+
+			.content5 {
+				height: 1400px;
+				width: 1450px;
+				margin: 40px auto 0 auto;
+				
+			}
+
+			.gdlr-core-pbf-column {
+				float: left;
+			}
+			.kuai{
+				width: 330px;
+				height: 420px;
+				border: 1px solid #d8d8d8;
+				border-radius: 5px;
+				text-align: center;
+				box-shadow: 0 2px  2px 2px #D1D1D1;
+				background: #FFFFFF;
+			}
+			.touxiang{
+				width: 130px;
+				height:130px;
+				background: #ececec;
+				border-radius: 50%;
+				margin: 30px auto 0 auto;
+				overflow: hidden;
+				position: relative;
+			}
+			.touxiang img{
+				position: absolute;
+				left: 0;
+				border-radius: 50%;
+			}
+			#kuai1{
+				position: absolute;
+				left: 430px;
+				top: 120px;
+				z-index: 999;
+			}
+			#kuai2{
+				position: absolute;
+				left: 0px;
+				top: 120px;
+				transform: scale(0.8);
+			}
+			#kuai3{
+				position: absolute;
+				left: 200px;
+				top: 120px;
+				transform: scale(0.9);
+			}
+			#kuai4{
+				position: absolute;
+				right: 200px;
+				top: 120px;
+				transform: scale(0.9);
+				z-index: 2;
+			}
+			#kuai5{
+				position: absolute;
+				right: 0;
+				top: 120px;
+				transform: scale(0.8);
+				z-index: 1;
+			}
+			.content4>img{
+				position: absolute;
+				
+			}
+			.left{
+				left: -30px;
+				top: 300px;
+			}
+			.right{
+				right: -30px;
+				top: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header_div">
+			<div class="header">
+				<div class="title">
+					我爱我的小破站
+				</div>
+				<div class="daohang">
+					<ul>
+						<li><a href="index.html">首页</a></li>
+						<li><a href="fazhanshi.html">发展史</a></li>
+						<li class="li">分区
+							<ul class="ul">
+								<li><a href="donghuaqu.html">番剧</a></li>
+								<li><a href="guichuqu.html">国创</a></li>
+								<li><a href="donghuaqu.html">动画</a></li>
+								<li><a href="guichuqu.html">鬼畜</a></li>
+								<li><a href="wudaoqu.html">漫画</a></li>
+								<li><a href="wudaoqu.html">舞蹈</a></li>
+								<li><a href="yinyuequ.html">音乐</a></li>
+								<li><a href="shenghuoqu.html">生活</a></li>
+								<li><a href="yinyuequ.html">运动</a></li>
+								<li><a href="shenghuoqu.html">科技</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="banner">
+			<img src="img/20210714-201636(152).jpg" width="100%">
+		</div>
+		<div class="content1">
+			<div class="biaoti">
+				<h1>热门分区</h1>
+				<p class="bt">
+					POPULAR PARTITION
+				</p>
+			</div>
+			<table class="fenlei" border="0" cellspacing="" cellpadding="">
+				<tr>
+					<td>
+						<a href="donghuaqu.html"><img src="img/tubiao/fanju.png">
+						<br>番剧</a>
+					</td>
+					<td>
+						<a href="guichuqu.html"><img src="img/tubiao/guochuang.png">
+						<br>国创</a>
+					</td>
+					<td>
+						<a href="donghuaqu.html"><img class="fl5" src="img/tubiao/donghua.png"
+							style="margin-top: 10px;margin-bottom: 5px; width: 45%;">
+						<br>动画</a>
+					</td>
+					<td>
+						<a href="guichuqu.html"><img class="fl1" src="img/tubiao/guichu.png">
+						<br>鬼畜</a>
+					</td>
+					<td>
+						<a href="wudaoqu.html"><img src="img/tubiao/mahua.png" style="margin-top: 10px;margin-bottom: px; width: 45%;">
+						<br>漫画</a>
+					</td>
+					<td>
+						<a href="wudaoqu.html"><img src="img/tubiao/wudao.png" style="margin-bottom: -5px; width:55%;">
+						<br>舞蹈</a>
+					</td>
+					<td>
+						<a href="yinyuequ.html"><img class="fl2" src="img/tubiao/yinyue.png"
+							style="margin-top: 10px;margin-bottom: px; width: 45%;">
+						<br>音乐</a>
+					</td>
+					<td>
+						<a href="shenghuoqu.html"><img class="fl4" src="img/tubiao/shenghuo.png" style="margin-bottom: 3px;">
+						<br>生活</a>
+					</td>
+					<td>
+						<a href="yinyuequ.html"><img class="fl3" src="img/tubiao/yundong.png"
+							style="margin-top: 10px;margin-bottom: 8px; width: 40%;">
+						<br>运动</a>
+					</td>
+					<td>
+						<a href="shenghuoqu.html"><img src="img/tubiao/keji.png">
+						<br>科技</a>
+					</td>
+				</tr>
+			</table>
+			<table id="fq1" class="fenqu1" border="0" cellspacing="" cellpadding="">
+				<tr>
+					<td align="left">
+						<a href="https://www.bilibili.com/anime/?spm_id_from=333.5.b_7072696d6172794368616e6e656c4d656e75.8">
+							<img src="img/donghua/2f4f1583ca0179e0293da8d85607505.jpg" width="95%" height="370px">
+							<p>
+								番剧区
+							</p>
+						</a>
+					</td>
+					<td align="center">
+						<a href="https://www.bilibili.com/guochuang/?spm_id_from=666.4.b_7072696d6172794368616e6e656c4d656e75.26">
+							<img src="img/donghua/79644631282923ac8d57680642f375b.jpg" width="95%" height="370px">
+							<p>
+								国创区
+							</p>
+						</a>
+					</td>
+					<td align="center">
+						<a href="https://www.bilibili.com/v/douga/?spm_id_from=333.851.b_7072696d6172794368616e6e656c4d656e75.1">
+							<img src="img/donghua/3f9f987ab7840446c096d03004a0242.jpg" width="95%" height="370px">
+							<p>
+								动画区
+							</p>
+						</a>
+					</td>
+					<td align="center">
+						<a href="https://www.bilibili.com/v/kichiku/?spm_id_from=333.851.b_7072696d6172794368616e6e656c4d656e75.20">
+							<img src="img/guichu/1255e02656ea1a00bca3d95236133ec.jpg" width="95%" height="370px">
+							<p>
+								鬼畜区
+							</p>
+						</a>
+					</td>
+					<td align="right">
+						<a href="http://www.bilibili.com">
+							<img src="img/donghua/90ccc924d38014b022bdabe03f65ffd.jpg" width="95%" height="370px">
+							<p>
+								漫画区
+							</p>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						<a href="https://www.bilibili.com/v/dance/?spm_id_from=333.851.b_7072696d6172794368616e6e656c4d656e75.28">
+							<img src="img/donghua/beabcb71af401548fde6264868585cf.jpg" width="95%" height="370px">
+							<p>
+								舞蹈区
+							</p>
+						</a>
+					</td>
+					<td align="center">
+						<a href="https://www.bilibili.com/v/music/?spm_id_from=333.851.b_7072696d6172794368616e6e656c4d656e75.15">
+							<img src="img/yinyue/0e941369d8b0818ce0cc3840c724ec6.jpg" width="95%" height="370px">
+							<p>
+								音乐区
+							</p>
+						</a>
+					</td>
+					<td align="center">
+						<a href="https://www.bilibili.com/v/life/?spm_id_from=333.851.b_7072696d6172794368616e6e656c4d656e75.58">
+							<img src="img/shenghuo/98a21fa183b6eb6dc321b99b1075167.jpg" width="95%" height="370px">
+							<p>
+								生活区
+							</p>
+						</a>
+					</td>
+					<td align="center">
+						<a href="https://www.bilibili.com/v/sports">
+							<img src="img/yundong/80c9573fa33b62ed1568e77dabeffdf.jpg" width="95%" height="370px">
+							<p>
+								运动区
+							</p>
+						</a>
+					</td>
+					<td align="right">
+						<a href="https://www.bilibili.com/v/tech/?spm_id_from=666.5.b_7072696d6172794368616e6e656c4d656e75.38">
+							<img src="img/donghua/c93b607408ea1825560b390868490cc.jpg" width="95%" height="370px">
+							<p>
+								科技区
+							</p>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="content2">
+			<p>
+				欢迎来到我们的网页
+			</p>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="tu">
+							<div class="">
+
+							</div>
+							<img src="img/20210714-201636(159).jpg">
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="tu">
+							<div class="">
+
+							</div>
+							<img src="img/20210714-201636(151).jpg">
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="tu">
+							<div class="">
+
+							</div>
+							<img src="img/20210714-201636(148).jpg">
+						</div>
+					</div>
+				</div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div>
+		</div>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				spaceBetween: 30,
+				centeredSlides: true,
+				autoplay: {
+					delay: 2500,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+		<div class="content5">
+			<div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column_2"
+				style="width:400px height:600px">
+				<div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-1
+					data-sync-height-center>
+					<canvas class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content"
+						id="main1-0" width="800" height="600"></canvas>
+					<!-- 引入Echarts的实现代码 -->
+					<script type="text/javascript">
+						var chartDom = document.getElementById('main1-0');
+						var myChart = echarts.init(chartDom);
+						var option;
+						option = {
+		
+							toolbox: {
+								show: true,
+								feature: {
+									mark: {
+										show: true
+									},
+									dataView: {
+										show: true,
+										readOnly: false
+									},
+									restore: {
+										show: true
+									},
+									saveAsImage: {
+										show: true
+									}
+								},
+							},
+							series: [{
+								name: '面积模式',
+								type: 'pie',
+								radius: [30, 200],
+								center: ['50%', '50%'],
+								roseType: 'area',
+								itemStyle: {
+									borderRadius: 8,
+									normal: {
+										label: {
+											textStyle: {
+												fontSize: 15
+											}
+										}
+									}
+								},
+								data: [{
+										value: 17585382,
+										name: '动画区'
+									},
+									{
+										value: 14156746,
+										name: '音乐区'
+									},
+									{
+										value: 10984454,
+										name: '舞蹈区'
+									},
+									{
+										value: 12895737,
+										name: '知识区'
+									},
+									{
+										value: 20737995,
+										name: '生活区'
+									},
+									{
+										value: 7116011,
+										name: '时尚区'
+									},
+									{
+										value: 15169181,
+										name: '游戏区'
+									},
+									{
+										value: 6101419,
+										name: '科技区'
+									},
+									{
+										value: 6497619,
+										name: '鬼畜区'
+									},
+									{
+										value: 18157071,
+										name: '影视区'
+									}
+								]
+							}]
+						};
+		
+						option && myChart.setOption(option);
+					</script>
+				</div>
+			</div>
+			<!-- 文字板块 -->
+			<div class="gdlr-core-pbf-column gdlr-core-column-30" id=gdlr-core-column-1>
+				<div class="gdlr-core-pbf-column-content-margin gdlr-core-js "
+					style="min-height: 580px ;padding: 90px 110px 90px 90px;" data-sync-height=half-1
+					data-sync-height-center>
+					<div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+						<div class=gdlr-core-pbf-element>
+							<div
+								class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+								<div class=gdlr-core-title-item-title-wrap>
+									<h3 class="gdlr-core-title-item-title gdlr-core-skin-title "
+										style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">
+										各区的热度比较<span
+											class="gdlr-core-title-item-title-divider gdlr-core-skin-divider"></span>
+									</h3>
+								</div><span
+									class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight"
+									style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;text-transform: uppercase ;color: #0a0a0a ;background-color: #f25d8e ;margin-top: 20px ;">
+									<font color="#FFFFFF">数据来源于各区热门视频爬取</font>
+								</span>
+							</div>
+						</div>
+						<div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix "
+							style="padding-bottom: 0px ;color: #000000">
+							<div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix "
+								style="padding-bottom: 0px ;color: #000000">
+								<ul>
+									<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap
+											style="margin-top: 5px ;"></span>
+										<div class=gdlr-core-icon-list-content-wrap><span
+												class=gdlr-core-icon-list-content
+												style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">在前十个分区中，按分区热度排名依次为：<br/>生活区，影视区，动画区，游戏区，音乐区,<br/>知识区，舞蹈区，时尚区，鬼畜区，科技区</span>
+										</div>
+									</li>
+									<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap
+											style="margin-top: 5px ;"></span>
+										<div class=gdlr-core-icon-list-content-wrap><span
+												class=gdlr-core-icon-list-content
+												style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">生活区，影视区，动画区热度遥遥领先，占据了大多数流量<br/>这一现象的形成的原因B站逐渐变得大众化；<br/>而鬼畜区热度占比并不高<br/>与以往B站鬼畜区独领风骚的印象有所出入</span>
+										</div>
+									</li>
+		
+		
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 文字板块 -->
+			<div class="gdlr-core-pbf-column gdlr-core-column-30 gdlr-core-column-first" style="height:300px ;" data-skin="Black Text" id=gdlr-core-column-2>
+			<div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="min-height: 580px ;padding: 90px 90px 90px 110px;" data-sync-height=half-2 data-sync-height-center>
+				<div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+					<div class=gdlr-core-pbf-element>
+						<div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+							<div class=gdlr-core-title-item-title-wrap>
+								<h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">各分区都有自己的小tag～<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight" style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;text-transform: uppercase ;color: #0a0a0a ;background-color: #f25d8e ;margin-top: 20px ;"><font color="#FFFFFF">数据来源于B站什么的</font></span></div>
+					</div>
+					<div class=gdlr-core-pbf-element>
+						<div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 0px ;">
+							<ul>
+								<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+									<div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">该图表是响应式图表，你可以点击其中一个区，进入大图查看详情。</span></div>
+								</li>
+								
+								<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+									<div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">例如：</span></div>
+								</li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<!-- 图表板块 -->
+			<div class="gdlr-core-pbf-column gdlr-core-column-30">
+			<div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-2 data-sync-height-center>
+				
+				<canvas class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content" id="main4" width="700" height="500"></canvas>
+				<script type="text/javascript">
+					// 基于准备好的dom，初始化echarts实例
+					var app = {};
+		
+					var chartDom = document.getElementById('main4');
+					var myChart = echarts.init(chartDom);
+					var option;
+		
+					var data = [{
+						name: '动画区',
+						itemStyle: {
+							color: '#da0d68'
+						},
+						children: [{
+							name: 'MAD',
+							itemStyle: {
+								color: '#975e6d'
+							},
+							children: [{
+								name: '名侦探柯南',
+								value: 1,
+								itemStyle: {
+									color: '#e0719c'
+								}
+							}]
+						}, {
+							name: '手办',
+							itemStyle: {
+								color: '#ef5a78'
+							},
+							children: [{
+								name: '高达独角兽',
+								value: 1,
+								itemStyle: {
+									color: '#f7f1bd'
+								}
+							}, {
+								name: '昔日的荣光 优菈',
+								value: 1,
+								itemStyle: {
+									color: '#e2631e'
+								}
+							}]
+						}, {
+							name: 'MMD',
+							itemStyle: {
+								color: '#e0719c'
+							},
+							children: [{
+								name: '又甘又刻',
+								value: 1,
+								itemStyle: {
+									color: '#f99e1c'
+								}
+							}]
+						}]
+					}, {
+						name: '音乐区',
+						itemStyle: {
+							color: '#da1d23'
+						},
+						children: [{
+							name: '原创音乐',
+							itemStyle: {
+								color: '#dd4c51'
+							},
+							children: [{
+								name: '音阙诗听',
+								value: 1,
+								itemStyle: {
+									color: '#3e0317'
+								}
+							}, {
+								name: 'Shape of you',
+								value: 1,
+								itemStyle: {
+									color: '#e62969'
+								}
+							}, {
+								name: 'Blueberry',
+								value: 1,
+								itemStyle: {
+									color: '#6569b0'
+								}
+							}, {
+								name: 'Strawberry',
+								value: 1,
+								itemStyle: {
+									color: '#ef2d36'
+								}
+							}]
+						}, {
+							name: '翻唱',
+							itemStyle: {
+								color: '#c94a44'
+							},
+							children: [{
+								name: '九九八十一',
+								value: 1,
+								itemStyle: {
+									color: '#b53b54'
+								}
+							}, {
+								name: '极乐净土',
+								value: 1,
+								itemStyle: {
+									color: '#a5446f'
+								}
+							}]
+						}, {
+							name: '演奏',
+							itemStyle: {
+								color: '#dd4c51'
+							},
+							children: [{
+								name: 'Cherry',
+								value: 1,
+								itemStyle: {
+									color: '#e73451'
+								}
+							}]
+						}]
+					}, {
+						name: '舞蹈区',
+						itemStyle: {
+							color: '#ebb40f'
+						},
+						children: [{
+							name: '宅舞',
+							itemStyle: {
+								color: '#e1c315'
+							},
+							children: [{
+								name: '将进酒',
+								value: 1,
+								itemStyle: {
+									color: '#9ea718'
+								}
+							}]
+						}, {
+							name: '街舞',
+							itemStyle: {
+								color: '#b09733'
+							},
+							children: [{
+								name: '奇怪的舞团',
+								value: 1,
+								itemStyle: {
+									color: '#8f1c53'
+								}
+							}, {
+								name: 'Whiskey',
+								value: 1,
+								itemStyle: {
+									color: '#b34039'
+								}
+							}]
+						}, {
+							name: '中国舞',
+							itemStyle: {
+								color: '#b34039'
+							},
+							children: [{
+								name: '赤伶',
+								value: 1,
+								itemStyle: {
+									color: '#8b6439'
+								}
+							}]
+						}]
+					}, {
+						name: '知识区',
+						itemStyle: {
+							color: '#187a2f'
+						},
+						children: [{
+							name: '人文历史',
+							itemStyle: {
+								color: '#a2b029'
+							},
+							children: [{
+								name: '人为什么而活',
+								value: 1,
+								itemStyle: {
+									color: '#a3a830'
+								}
+							},{
+								name: '椰树椰汁',
+								value: 1,
+								itemStyle: {
+									color: '#7ac141'
+								}
+							}]
+						}, {
+							name: '社科',
+							itemStyle: {
+								color: '#718933'
+							},
+							children: [{
+								name: '中国共产党成立100周年',
+								value: 1,
+								itemStyle: {
+									color: '#62aa3c'
+								}
+							}]
+						}, {
+							name: '科学科普',
+							itemStyle: {
+								color: '#3aa255'
+							},
+							children: [{
+								name: '帝企鹅报团取暖',
+								value: 1,
+								itemStyle: {
+									color: '#a2bb2b'
+								}
+							}]
+						}]
+					}, {
+						name: '生活区',
+						itemStyle: {
+							color: '#0aa3b5'
+						},
+						children: [{
+							name: '绘画',
+							itemStyle: {
+								color: '#9db2b7'
+							},
+							children: [{
+								name: '原神',
+								value: 1,
+								itemStyle: {
+									color: '#8b8c90'
+								}
+							}, {
+								name: '神里绫华',
+								value: 1,
+								itemStyle: {
+									color: '#beb276'
+								}
+							}]
+						}, 
+						{
+							name: '家居房产',
+							itemStyle: {
+								color: '#cc7b6a'
+							},
+							children: [{
+								name: '厨房好物',
+								value: 1,
+								itemStyle: {
+									color: '#039fb8'
+								}
+							}, {
+								name: '风铃发髻',
+								value: 1,
+								itemStyle: {
+									color: '#039fb8'
+								}
+							}]
+						},
+						{
+							name: '搞笑',
+							itemStyle: {
+								color: '#76c0cb'
+							},
+							children: [{
+								name: '超人叶问',
+								value: 1,
+								itemStyle: {
+									color: '#80a89d'
+								}
+							}]
+						}]
+					}, {
+						name: '时尚区',
+						itemStyle: {
+							color: '#c94930'
+						},
+						children: [{
+							name: '美妆',
+							itemStyle: {
+								color: '#caa465'
+							},
+							children: [{
+								name: '敦煌飞天',
+								value: 1,
+								itemStyle: {
+									color: '#dfbd7e'
+								}
+							}]
+						}, {
+							name: 'T台',
+							itemStyle: {
+								color: '#be8663'
+							},
+							children: [{
+								name: '复古向',
+								value: 1,
+								itemStyle: {
+									color: '#b9a449'
+								}
+							}, {
+								name: '高贵礼服',
+								value: 1,
+								itemStyle: {
+									color: '#899893'
+								}
+							}, {
+								name: '惊艳美妆',
+								value: 1,
+								itemStyle: {
+									color: '#a1743b'
+								}
+							}]
+						}, {
+							name: '服饰',
+							itemStyle: {
+								color: '#ddaf61'
+							},
+							children: [{
+								name: '明日方舟cos',
+								value: 1,
+								itemStyle: {
+									color: '#b7906f'
+								}
+							}]
+						}]
+					}, {
+						name: '游戏区',
+						itemStyle: {
+							color: '#ad213e'
+						},
+						children: [{
+							name: '电子竞技',
+							itemStyle: {
+								color: '#794752'
+							},
+							children: [{
+								name: '掉了两格血开始嘤嘤乱叫',
+								value: 1,
+								itemStyle: {
+									color: '#a16c5a'
+								}
+							}]
+						}, {
+							name: '网络游戏',
+							itemStyle: {
+								color: '#cc3d41'
+							},
+							children: [{
+								name: '原神',
+								value: 1,
+								itemStyle: {
+									color: '#c89f83'
+								}
+							}, {
+								name: '稻妻风景',
+								value: 1,
+								itemStyle: {
+									color: '#8c292c'
+								}
+							}, {
+								name: '钟离',
+								value: 1,
+								itemStyle: {
+									color: '#e5762e'
+								}
+							}]
+						}, {
+							name: '单机游戏',
+							itemStyle: {
+								color: '#b14d57'
+							},
+							children: [{
+								name: '史上最骚杀手',
+								value: 1,
+								itemStyle: {
+									color: '#c78936'
+								}
+							}]
+						}]
+					}, {
+						name: '科技区',
+						itemStyle: {
+							color: '#a87b64'
+						},
+						children: [{
+							name: '计算机技术',
+							itemStyle: {
+								color: '#c78869'
+							},
+							children: [ {
+								name: 'javaEE工程师课程',
+								value: 1,
+								itemStyle: {
+									color: '#d4ad12'
+								}
+							}, {
+								name: 'IDEA教程',
+								value: 1,
+								itemStyle: {
+									color: '#9d5433'
+								}
+							}]
+						}, {
+							name: '数码',
+							itemStyle: {
+								color: '#bb764c'
+							},
+							children: [{
+								name: '四万块的华为手机',
+								value: 1,
+								itemStyle: {
+									color: '#692a19'
+								}
+							}]
+						}, {
+							name: '极客DIY',
+							itemStyle: {
+								color: '#c89f83'
+							},
+							children: [{
+								name: '阐释者制作',
+								value: 1,
+								itemStyle: {
+									color: '#470604'
+								}
+							}]
+						}]
+					}, {
+						name: '影视区',
+						itemStyle: {
+							color: '#e65832'
+						},
+						children: [{
+							name: '影视杂谈',
+							itemStyle: {
+								color: '#d45a59'
+							},
+							children: [{
+								name: '误杀',
+								value: 1,
+								itemStyle: {
+									color: '#da5c1f'
+								}
+							}]
+						}, {
+							name: '影视剪辑',
+							itemStyle: {
+								color: '#f89a80'
+							},
+							children: [{
+								name: '热爱105℃的你',
+								value: 1,
+								itemStyle: {
+									color: '#310d0f'
+								}
+							}]
+						}, {
+							name: '短片',
+							value: 1,
+							itemStyle: {
+								color: '#f37674'
+							},
+							children: [{
+								name: '女驸马',
+								value: 1,
+								itemStyle: {
+									color: '#ae341f'
+								}
+							}]
+						}, {
+							name: '预告',
+							value: 1,
+							itemStyle: {
+								color: '#e75b68'
+							},
+							children: [{
+								name: '镇魂',
+								value: 1,
+								itemStyle: {
+									color: '#d78823'
+								}
+							}]
+						}]
+					}];
+		
+					option = {
+						series: {
+							type: 'sunburst',
+		
+							data: data,
+							radius: [0, '95%'],
+							sort: null,
+		
+							emphasis: {
+								focus: 'ancestor'
+							},
+		
+							levels: [{}, {
+								r0: '15%',
+								r: '35%',
+								itemStyle: {
+									borderWidth: 2
+								},
+								label: {
+									rotate: 'tangential'
+								}
+							}, {
+								r0: '35%',
+								r: '70%',
+								label: {
+									align: 'right'
+								}
+							}, {
+								r0: '70%',
+								r: '72%',
+								label: {
+									position: 'outside',
+									padding: 3,
+									silent: false
+								},
+								itemStyle: {
+									borderWidth: 3
+								}
+							}]
+						}
+					};
+					myChart.setOption(option);
+				</script>
+			</div>
+			</div>
+			
+			
+			
+		</div>
+		<div class="content3">
+			<div class="biaoti">
+				<h1>知名UP主推荐</h1>
+				<p class="bt">
+					FAMOUS UP MAIN RECOMMENDATION
+				</p>
+			</div>
+			<ul>
+				<li>
+					<a href="https://space.bilibili.com/546195?from=search&seid=3120518771868272058">
+						<div class="tu2"
+							style="background: url(images/老番茄.jpg);background-size: 130% 110%;background-position: -40px -15px;">
+						</div>
+						<div class="wenzi">
+							<span style="font-weight: 600;line-height: 30px;">游戏区最菜up主，你们快欺负他</span>
+							<br><br><!-- <img src="img/bfl.png" width="20" style="float: left;margin-top: 10px;"> --><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight:500;display: block;float: left;">粉丝数1554.1万</span>
+							<br><!--<img src="img/sj.png" width="20" style="float: left;margin-top: 10px;margin-left: 45px;">--><span
+								style="color: #989898;line-height: 15px;font-weight: 500;margin-left: 5px;display: block;float: left;margin-top: 12px;">播放量18.3亿</span>
+							<!-- <br><img src="img/r.png" width="20" style="float: left;margin-top: 15px;"><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight: 500;display: block;float: left;margin-top: 20px;">机智的党妹</span> -->
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://space.bilibili.com/99157282?from=search&seid=3120518771868272058">
+						<div class="tu2"
+							style="background: url(images/盗月社.jpg);background-size: 100% 110%;background-position: 0px px;">
+						</div>
+						<div class="wenzi">
+							<span style="font-weight: 600;line-height: 30px;">心里有光，哪都美</span>
+							<br><br><!-- <img src="img/bfl.png" width="20" style="float: left;margin-top: 10px;"> --><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight:500;display: block;float: left;">粉丝数555.6万</span>
+							<br><!--<img src="img/sj.png" width="20" style="float: left;margin-top: 10px;margin-left: 45px;">--><span
+								style="color: #989898;line-height: 15px;font-weight: 500;margin-left: 5px;display: block;float: left;margin-top: 12px;">播放量6.8亿</span>
+							<!-- <br><img src="img/r.png" width="20" style="float: left;margin-top: 15px;"><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight: 500;display: block;float: left;margin-top: 20px;">机智的党妹</span> -->
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://space.bilibili.com/517327498/video">
+						<div class="tu2"
+							style="background: url(images/罗翔.jpg);background-size: 130% 110%;background-position: -40px -15px;">
+						</div>
+						<div class="wenzi">
+							<span style="font-weight: 600;line-height: 30px;">有关张三的故事……</span>
+							<br><br><!-- <img src="img/bfl.png" width="20" style="float: left;margin-top: 10px;"> --><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight:500;display: block;float: left;">粉丝数1608.2万</span>
+							<br><!--<img src="img/sj.png" width="20" style="float: left;margin-top: 10px;margin-left: 45px;">--><span
+								style="color: #989898;line-height: 15px;font-weight: 500;margin-left: 5px;display: block;float: left;margin-top: 12px;">播放量4.2亿</span>
+							<!-- <br><img src="img/r.png" width="20" style="float: left;margin-top: 15px;"><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight: 500;display: block;float: left;margin-top: 20px;">机智的党妹</span> -->
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://space.bilibili.com/5870268?from=search&seid=1971271627447851095">
+						<div class="tu2"
+							style="background: url(images/三代鹿人.jpg);background-size: 100% 110%;background-position: -0px -15px;">
+						</div>
+						<div class="wenzi">
+							<span style="font-weight: 600;line-height: 30px;">不吹不黑纯路人，观点对事不对人</span>
+							<br><br><!-- <img src="img/bfl.png" width="20" style="float: left;margin-top: 10px;"> --><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight:500;display: block;float: left;">粉丝数406.7万</span>
+							<br><!--<img src="img/sj.png" width="20" style="float: left;margin-top: 10px;margin-left: 45px;">--><span
+								style="color: #989898;line-height: 15px;font-weight: 500;margin-left: 5px;display: block;float: left;margin-top: 12px;">播放量2.4亿</span>
+							<!-- <br><img src="img/r.png" width="20" style="float: left;margin-top: 15px;"><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight: 500;display: block;float: left;margin-top: 20px;">机智的党妹</span> -->
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://space.bilibili.com/113362335?from=search&seid=1971271627447851095">
+						<div class="tu2"
+							style="background: url(images/宝剑嫂.jpg);background-size: 100% 110%;background-position: -0px -15px;">
+						</div>
+						<div class="wenzi">
+							<span style="font-weight: 600;line-height: 30px;">梦想是可爱充满全世界</span>
+							<br><br><!-- <img src="img/bfl.png" width="20" style="float: left;margin-top: 10px;"> --><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight:500;display: block;float: left;">粉丝数358.7万</span>
+							<br><!--<img src="img/sj.png" width="20" style="float: left;margin-top: 10px;margin-left: 45px;">--><span
+								style="color: #989898;line-height: 15px;font-weight: 500;margin-left: 5px;display: block;float: left;margin-top: 12px;">播放量2.4亿</span>
+							<!-- <br><img src="img/r.png" width="20" style="float: left;margin-top: 15px;"><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight: 500;display: block;float: left;margin-top: 20px;">机智的党妹</span> -->
+						</div>
+					</a>
+				</li>
+
+
+				<li>
+					<a href="https://space.bilibili.com/254463269?from=search&seid=1971271627447851095">
+						<div class="tu2"
+							style="background: url(images/毕导.jpg);background-size: 100% 110%;background-position: -0px 0px;">
+						</div>
+						<div class="wenzi">
+							<span style="font-weight: 600;line-height: 30px;">一名数理化狂热爱好者！</span>
+							<br><br><!-- <img src="img/bfl.png" width="20" style="float: left;margin-top: 10px;"> --><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight:500;display: block;float: left;">粉丝数440.5万</span>
+							<br><!--<img src="img/sj.png" width="20" style="float: left;margin-top: 10px;margin-left: 45px;">--><span
+								style="color: #989898;line-height: 15px;font-weight: 500;margin-left: 5px;display: block;float: left;margin-top: 12px;">播放量1.4亿</span>
+							<!-- <br><img src="img/r.png" width="20" style="float: left;margin-top: 15px;"><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight: 500;display: block;float: left;margin-top: 20px;">机智的党妹</span> -->
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://space.bilibili.com/483879799?from=search&seid=6727647056704907126">
+						<div class="tu2"
+							style="background: url(images/猛男舞团.jpg);background-size: 100% 100%;background-position: -0px px;">
+						</div>
+						<div class="wenzi">
+							<span style="font-weight: 600;line-height: 30px;">菲律宾舞团ICONX成员</span>
+							<br><br><!-- <img src="img/bfl.png" width="20" style="float: left;margin-top: 10px;"> --><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight:500;display: block;float: left;">粉丝数242.5万</span>
+							<br><!--<img src="img/sj.png" width="20" style="float: left;margin-top: 10px;margin-left: 45px;">--><span
+								style="color: #989898;line-height: 15px;font-weight: 500;margin-left: 5px;display: block;float: left;margin-top: 12px;">播放量1.5亿</span>
+							<!-- <br><img src="img/r.png" width="20" style="float: left;margin-top: 15px;"><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight: 500;display: block;float: left;margin-top: 20px;">机智的党妹</span> -->
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://space.bilibili.com/928123?from=search&seid=6727647056704907126">
+						<div class="tu2"
+							style="background: url(./images/番剧.jpg);background-size: 100% 100%;background-position: -0px -0px;">
+						</div>
+						<div class="wenzi">
+							<span style="font-weight: 600;line-height: 30px;">关注最帅官号，你就是最帅粉丝了！</span>
+							<br><br><!-- <img src="img/bfl.png" width="20" style="float: left;margin-top: 10px;"> --><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight:500;display: block;float: left;">粉丝数387.4万</span>
+							<br><!--<img src="img/sj.png" width="20" style="float: left;margin-top: 10px;margin-left: 45px;">--><span
+								style="color: #989898;line-height: 15px;font-weight: 500;margin-left: 5px;display: block;float: left;margin-top: 12px;">播放量310.1亿</span>
+							<!-- <br><img src="img/r.png" width="20" style="float: left;margin-top: 15px;"><span
+								style="margin-left: 5px; margin-top: 15px; color: #989898;line-height: 10px;font-weight: 500;display: block;float: left;margin-top: 20px;">机智的党妹</span> -->
+						</div>
+					</a>
+				</li>
+			</ul>
+			<!-- 图表板块 -->
+											<div class="gdlr-core-pbf-column gdlr-core-column-30" id="gdlr-core-column_2" style="width:400px height:600px">
+			                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " data-sync-height=half-1 data-sync-height-center>
+			                                        <canvas class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content" id="main5" width="700" height="600"></canvas>
+													<script src="js/china.js"></script>
+													<script type="text/javascript">
+														var myChart = echarts.init(document.getElementById('main5'));
+														function randomData() {
+															return Math.round(Math.random()*1000);
+														}
+														option = {
+			    
+															tooltip: {
+																trigger: 'item'
+															},
+															legend: {
+																orient: 'vertical',
+																left: 'left',
+																data: 'iphone3'
+															},
+															visualMap: {
+																min: 1,
+																max: 66552547,
+																left: 'left',
+																top: 'bottom',
+																text: ['高', '低'], // 文本，默认为数值文本
+																calculable: true,
+																color: ['#f25d8e','#ffffff'],
+															},
+															toolbox: {
+																show: true,
+																orient: 'vertical',
+																left: 'right',
+																top: 'center',
+																feature: {
+																	dataView: {
+																		readOnly: false
+																	},
+																	restore: {},
+																	saveAsImage: {}
+																},
+															},
+															series: [{
+																name: 'iphone3',
+																type: 'map',
+																mapType: 'china',
+																roam: false,
+																label: {
+																	normal: {
+																		show: true
+																	},
+																	emphasis: {
+																		show: true
+																	}
+																},
+																data: [{
+																	name: '西藏',
+																	value: '1092832'
+																   },
+																   {
+																	name: '宁夏',
+																	value: '1276768'
+																   },
+																   {
+																	name: '青海',
+																	value: '1382901'
+																   },
+																   {
+																	name: '海南',
+																	value: '2105149'
+																   },
+																   {
+																	name: '香港',
+																	value: '2889021'
+																   },
+																   {
+																	name: '澳门',
+																	value: '2998219'
+																   },
+																   {
+																	name: '新疆',
+																	value: '3278694'
+																   },
+																   {
+																	name: '台湾',
+																	value: '3641273'
+																   },
+																   {
+																	name: '天津',
+																	value: '3909292'
+																   },
+																   {
+																	name: '内蒙古',
+																	value: '3992884'
+																   },
+																   {
+																	name: '甘肃',
+																	value: '4212389'
+																   },
+																   {
+																	name: '北京',
+																	value: '4610298'
+																   },
+																   {
+																	name: '山西',
+																	value: '6032232'
+																   },
+																   {
+																	name: '吉林',
+																	value: '6802197'
+																   },
+																   {
+																	name: '云南',
+																	value: '6809287'
+																   },
+																   {
+																	name: '黑龙江',
+																	value: '7930934'
+																   },
+																   {
+																	name: '辽宁',
+																	value: '10642530'
+																   },
+																   {
+																	name: '江西',
+																	value: '10783175'
+																   },
+																   {
+																	name: '贵州',
+																	value: '12345753'
+																   },
+																   {
+																	name: '重庆',
+																	value: '12963167'
+																   },
+																   {
+																	name: '陕西',
+																	value: '13048976'
+																   },
+																   {
+																	name: '广西',
+																	value: '15901217'
+																   },
+																   {
+																	name: '河南',
+																	value: '16323150'
+																   },
+																   {
+																	name: '安徽',
+																	value: '16424448'
+																   },
+																   {
+																	name: '山东',
+																	value: '23238598'
+																   },
+																   {
+																	name: '福建',
+																	value: '24199250'
+																   },
+																   {
+																	name: '湖北',
+																	value: '26308920'
+																   },
+																   {
+																	name: '湖南',
+																	value: '28121813'
+																   },
+																   {
+																	name: '四川',
+																	value: '34716624'
+																   },
+																   {
+																	name: '上海',
+																	value: '51602353'
+																   },
+																   {
+																	name: '浙江',
+																	value: '52492684'
+																   },
+																   {
+																	name: '江苏',
+																	value: '59282974'
+																   },
+																   {
+																	name: '广东',
+																	value: '66552547'
+																   },
+
+																   
+			
+																]
+															}, ]
+														};
+														myChart.setOption(option);
+													</script>	
+			                                    </div>
+			                                </div>
+											<!-- 文字板块 -->
+			                                <div class="gdlr-core-pbf-column gdlr-core-column-30" >
+			                                    <div class="gdlr-core-pbf-column-content-margin gdlr-core-js " style="min-height: 580px ;padding: 90px 110px 90px 90px;" data-sync-height=half-1 data-sync-height-center>
+			                                        <div class="gdlr-core-pbf-column-content clearfix gdlr-core-js  gdlr-core-sync-height-content">
+			                                            <div class=gdlr-core-pbf-element>
+			                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-bottom gdlr-core-item-pdlr">
+			                                                    <div class=gdlr-core-title-item-title-wrap>
+			                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title " style="font-size: 20px ;font-weight: 700 ;letter-spacing: 0px ;line-height: 1.6 ;">B站用户遍布五湖四海<span class="gdlr-core-title-item-title-divider gdlr-core-skin-divider" ></span></h3></div><span class="gdlr-core-title-item-caption gdlr-core-info-font gdlr-core-skin-caption ztudiox-highlight" style="font-size: 14px ;font-weight: 500 ;font-style: normal ;letter-spacing: 2px ;color: #ffffff ;background-color: #f25d8e ;margin-top: 20px ;">数据来源于bilibili用户信息爬取</span></div>
+			                                            </div>
+			                                            <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 0px ;color: #000000">
+			                                            <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 0px ;color: #000000">
+			                                                    <ul>
+			                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+			                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">B站56%的用户来自于一线城市</span></div>
+			                                                        </li>
+																	<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+			                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">用户分布最多的是广东、浙江、上海、江苏，占了41%</span></div>
+			                                                        </li>
+			                                                        <li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+			                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">目前B站的主要的用户群多集中于一二线城市</span></div>
+			                                                        </li>
+																	<li class=" gdlr-core-skin-divider"><span class=gdlr-core-icon-list-icon-wrap style="margin-top: 5px ;"></span>
+			                                                            <div class=gdlr-core-icon-list-content-wrap><span class=gdlr-core-icon-list-content style="font-size: 17px ;font-weight: 700 ;text-transform: uppercase ;">B站用户分布东南多西北少，和中国经济人口分布十分相似。</span></div>
+			                                                        </li>
+			                                                        
+			                                                        
+			                                                    </ul>
+			                                                </div>
+			                                        </div>
+			                                    </div>
+			                                </div>
+			                            </div>
+		</div>
+		<div class="content4">
+			<img src="img/zuo.png" class="left" width="50">
+			<img src="img/you.png" class="right" width="50">
+			<div class="biaoti">
+				<h1>核心团队成员</h1>
+				<p class="bt">
+					CORE TEAM MEMBER
+				</p>
+				
+				<div class="kuai" id="kuai2">
+					<div class="touxiang">
+						<img src="img/tx/t2.png" width="100%" height="100%">
+					</div>
+					<h3 class="mz" style="border-bottom: 2px solid #f78f5f;width: 60px;margin: 20px auto 0 auto;padding-bottom: 2px;">费昊楠</h3>
+					<p class="zw" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						团队职务：组员
+					</p>
+					<h3 style="margin: 0px auto 0 auto;padding-bottom: 2px;color: #d30000;"> —&emsp;团队职责&emsp;—</h3>
+					<p  class="zz1" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						负责反爬程序的处理
+					</p>
+					<p class="zz2" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						网络爬虫
+					</p>
+					<p class="zz3" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						数据清洗数据处理等工作
+					</p>
+				</div>
+				<div class="kuai" id="kuai3">
+					<div class="touxiang">
+						<img src="img/tx/t5.png" width="100%" height="100%">
+					</div>
+					<h3 class="mz" style="border-bottom: 2px solid #f78f5f;width: 60px;margin: 20px auto 0 auto;padding-bottom: 2px;">邵柏豪</h3>
+					<p class="zw" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						团队职务：组员
+					</p>
+					<h3 style="margin: 0px auto 0 auto;padding-bottom: 2px;color: #d30000;"> —&emsp;团队职责&emsp;—</h3>
+					<p class="zz1" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						负责网页的编写
+					</p>
+					<p class="zz2" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						网站建设
+					</p>
+					<p class="zz3" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						内容填充
+					</p>
+				</div>
+				<div class="kuai" id="kuai1">
+					<div class="touxiang">
+						<img src="img/tx/t1.png" width="100%" height="100%">
+					</div>
+					<h3 class="mz" style="border-bottom: 2px solid #f78f5f;width: 60px;margin: 20px auto 0 auto;padding-bottom: 2px;">林修醇</h3>
+					<p class="zw" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						团队职务：组长
+					</p>
+					<h3 style="margin: 0px auto 0 auto;padding-bottom: 2px;color: #d30000;"> —&emsp;团队职责&emsp;—</h3>
+					<p class="zz1" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						负责统筹组织安排
+					</p>
+					<p class="zz2" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						网站的整体设计与美术 
+					</p>
+					<p  class="zz3" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						网页制作
+					</p>
+				</div>
+				<div class="kuai" id="kuai4">
+					<div class="touxiang">
+						<img src="img/tx/t4.png" width="100%" height="100%">
+					</div>
+					<h3 class="mz" style="border-bottom: 2px solid #f78f5f;width: 60px;margin: 20px auto 0 auto;padding-bottom: 2px;">何海童</h3>
+					<p class="zw" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						团队职务：组员
+					</p>
+					<h3 style="margin: 0px auto 0 auto;padding-bottom: 2px;color: #d30000;"> —&emsp;团队职责&emsp;—</h3>
+					<p class="zz1" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						负责内容填充
+					</p>
+					<p class="zz2" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						词云的制作处理
+					</p>
+					<p class="zz3" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						数据归类
+					</p>
+				</div>
+				<div class="kuai" id="kuai5">
+					<div class="touxiang">
+						<img src="img/tx/t3.png" width="100%" height="100%">
+					</div>
+					<h3 class="mz" style="border-bottom: 2px solid #f78f5f;width: 60px;margin: 20px auto 0 auto;padding-bottom: 2px;">石柏源</h3>
+					<p class="zw" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						团队职务：组员
+					</p>
+					<h3 style="margin: 0px auto 0 auto;padding-bottom: 2px;color: #d30000;"> —&emsp;团队职责&emsp;—</h3>
+					<p class="zz1" style="color: #616161;font-size: 15px;margin-top: 10px;margin-bottom: 10px;">
+						负责调教算法，进行数据聚类分析
+					</p>
+					<p class="zz2" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						决策树与贝叶斯算法的应用
+					</p>
+					<p class="zz3" style="color: #616161;font-size: 15px;margin-top: 0px;margin-bottom: 10px;">
+						网页内容的填充
+					</p>
+				</div>
+			</div>
+			<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+			<script type="text/javascript">
+				var img=[];
+				var ming=[];
+				var zw=[];
+				var zz1=[];
+				var zz2=[];
+				var zz3=[];
+				img.push('img/tx/t2.png')
+				img.push('img/tx/t5.png')
+				img.push('img/tx/t1.png')
+				img.push('img/tx/t4.png')
+				img.push('img/tx/t3.png')
+				ming.push('费昊楠')
+				ming.push('邵柏豪')
+				ming.push('林修醇')
+				ming.push('何海童')
+				ming.push('石柏源')
+				zw.push('组员')
+				zw.push('组员')
+				zw.push('组长')
+				zw.push('组员')
+				zw.push('组员')
+				zz1.push('负责反爬程序的处理')
+				zz1.push('负责网页的编写')
+				zz1.push('负责统筹组织安排')
+				zz1.push('负责内容填充')
+				zz1.push('负责调教算法，进行数据聚类分析')
+				
+				zz2.push('网络爬虫')
+				zz2.push('网站建设')
+				zz2.push('网站的整体设计与美术')
+				zz2.push('词云的制作处理')
+				zz2.push('决策树与贝叶斯算法的应用')
+				
+				zz3.push('数据清洗数据处理等工作')
+				zz3.push('内容填充')
+				zz3.push('网页制作')
+				zz3.push('数据归类')
+				zz3.push('网页内容的填充')
+				var a=0;
+				var b=5;
+				$(".right").click(function(){
+					 a++;
+					 b--;
+					 if(a>5){
+						a=0;
+					 }
+					 if(b<0){
+						 b=5
+					 }
+					for(var i=0;i<5;i++){
+						if(i-a>=0){
+							$(".touxiang img").eq(i).attr("src",img[i-a])
+							$(".mz").eq(i).html(ming[i-a])
+							$(".zw").eq(i).html(zw[i-a])
+							$(".zz1").eq(i).html(zz1[i-a])
+							$(".zz2").eq(i).html(zz2[i-a])
+							$(".zz3").eq(i).html(zz3[i-a])
+						}else{
+							$(".touxiang img").eq(i).attr("src",img[b+i])
+							$(".mz").eq(i).html(ming[b+i])
+							$(".zw").eq(i).html(zw[b+i])
+							$(".zz1").eq(i).html(zz1[b+i])
+							$(".zz2").eq(i).html(zz2[b+i])
+							$(".zz3").eq(i).html(zz3[b+i])
+						}
+					} 
+				})
+				
+				$(".left").click(function(){
+					 a--;
+					 b++;
+					 if(a<0){
+						a=5;
+					 }
+					 if(b>5){
+						 b=0
+					 }
+					for(var i=0;i<5;i++){
+						if(i-a>=0){
+							$(".touxiang img").eq(i).attr("src",img[i-a])
+							$(".mz").eq(i).html(ming[i-a])
+							$(".zw").eq(i).html(zw[i-a])
+							$(".zz1").eq(i).html(zz1[i-a])
+							$(".zz2").eq(i).html(zz2[i-a])
+							$(".zz3").eq(i).html(zz3[i-a])
+						}else{
+							$(".touxiang img").eq(i).attr("src",img[b+i])
+							$(".mz").eq(i).html(ming[b+i])
+							$(".zw").eq(i).html(zw[b+i])
+							$(".zz1").eq(i).html(zz1[b+i])
+							$(".zz2").eq(i).html(zz2[b+i])
+							$(".zz3").eq(i).html(zz3[b+i])
+						}
+					} 
+				})
+			</script>
+		</div>
+		
+	</body>
+</html>
